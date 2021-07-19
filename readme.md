@@ -10,7 +10,6 @@ to run the project.
 Directory "data" contains the downloaded datasets.<br>
 Directory "data_augmentation" contains 4 graph data augmentation implementation code.<br>
 Directory "model" contains the implementation code for GCN&GAT.<br>
-
 Config.py contains all the hyperparameters of the model.
 utils.py contains some useful functions.
 main.py contains the pipeline of running the whole model.
