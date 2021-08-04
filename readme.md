@@ -2,7 +2,7 @@
 This is the code for project "Data Augmentation for Graph Neural Networks"
 ## Run the project
 "main.py" is the entry file for this project. You can use the command
-```
+```python
 python main.py
 ```
 to run the project.
