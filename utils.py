@@ -1,10 +1,11 @@
 import os.path as osp
 from torch_geometric.datasets import Planetoid
 import torch_geometric.transforms as T
-from Config import Config
+from Config import config
 import networkx as nx
 import torch
 from torch_geometric.data import Data
+import os
 
 
 def load_dataset(dataset_name):
@@ -63,8 +64,18 @@ def from_numpy_edge_to_pyg(data, edge_np):
     return data_new
 
 
+def saving_log(log_list, acc, lr, hidden_layer, dropout, weight_decay, GNN):
+    with open(os.path.join(config.log_path, 'acc_collection.csv'), 'a+', encoding='utf-8') as f:
+        f.write(','.join([str(acc), str(lr), str(hidden_layer), str(dropout), str(weight_decay), str(GNN)]) + '\n')
+    # find the total length in acc_collection file
+    with open(os.path.join(config.log_path, 'acc_collection.csv'), 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+    file_len = len(lines)
+    with open(os.path.join(config.log_path, 'line' + str(file_len) + '.txt'), 'w', encoding='utf-8') as f:
+        f.writelines(log_list)
+
+
 if __name__ == '__main__':
-    config = Config()
     cora = load_dataset(config.dataset)
     dataG = from_pyg_to_networkx(cora[0])
     print(dataG)
