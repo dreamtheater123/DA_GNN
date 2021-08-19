@@ -21,7 +21,7 @@ class Config:
         self.percent = 0.02  # the percent of the added/removed edges
         self.hop = 2  # the number of hops for the edges to add
         self.early_stopping_round = 200  # the number of epochs for the model to stop training if no accuracy improvement
-        self.enable_logging = 'normal'  # whether to produce log and to produce which kind of log (False, PO, normal)
+        self.enable_logging = 'no'  # whether to produce log and to produce which kind of log (False, PO, normal)
         self.num_heads = 8  # number of heads for multi-head attention
         self.weight_decay_GCN = 0.003276  # L2 regularization parameter for GCN
         self.weight_decay_GAT = 0.000107  # L2 regularization parameter for GAT
