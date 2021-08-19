@@ -1,994 +1,565 @@
-Epoch: 001, Loss: 1.945651, Train: 0.228571, Val: 0.178000, Test: 0.179000, Test_acc_best: 0.179000
-Epoch: 002, Loss: 1.944441, Train: 0.342857, Val: 0.234000, Test: 0.231000, Test_acc_best: 0.231000
-Epoch: 003, Loss: 1.943890, Train: 0.392857, Val: 0.296000, Test: 0.293000, Test_acc_best: 0.293000
-Epoch: 004, Loss: 1.943462, Train: 0.492857, Val: 0.358000, Test: 0.326000, Test_acc_best: 0.326000
-Epoch: 005, Loss: 1.943449, Train: 0.578571, Val: 0.410000, Test: 0.371000, Test_acc_best: 0.371000
-Epoch: 006, Loss: 1.941487, Train: 0.664286, Val: 0.432000, Test: 0.402000, Test_acc_best: 0.402000
-Epoch: 007, Loss: 1.943014, Train: 0.742857, Val: 0.474000, Test: 0.449000, Test_acc_best: 0.449000
-Epoch: 008, Loss: 1.940227, Train: 0.807143, Val: 0.488000, Test: 0.476000, Test_acc_best: 0.476000
-Epoch: 009, Loss: 1.939211, Train: 0.835714, Val: 0.512000, Test: 0.503000, Test_acc_best: 0.503000
-Epoch: 010, Loss: 1.938914, Train: 0.871429, Val: 0.546000, Test: 0.536000, Test_acc_best: 0.536000
-Epoch: 011, Loss: 1.937299, Train: 0.892857, Val: 0.572000, Test: 0.568000, Test_acc_best: 0.568000
-Epoch: 012, Loss: 1.937238, Train: 0.892857, Val: 0.598000, Test: 0.598000, Test_acc_best: 0.598000
-Epoch: 013, Loss: 1.936597, Train: 0.900000, Val: 0.610000, Test: 0.613000, Test_acc_best: 0.613000
-Epoch: 014, Loss: 1.935139, Train: 0.900000, Val: 0.620000, Test: 0.630000, Test_acc_best: 0.630000
-Epoch: 015, Loss: 1.935248, Train: 0.914286, Val: 0.640000, Test: 0.651000, Test_acc_best: 0.651000
-Epoch: 016, Loss: 1.932129, Train: 0.914286, Val: 0.654000, Test: 0.660000, Test_acc_best: 0.660000
-Epoch: 017, Loss: 1.933845, Train: 0.921429, Val: 0.668000, Test: 0.669000, Test_acc_best: 0.669000
-Epoch: 018, Loss: 1.930337, Train: 0.921429, Val: 0.672000, Test: 0.679000, Test_acc_best: 0.679000
-Epoch: 019, Loss: 1.929962, Train: 0.935714, Val: 0.678000, Test: 0.692000, Test_acc_best: 0.692000
-Epoch: 020, Loss: 1.931639, Train: 0.935714, Val: 0.682000, Test: 0.697000, Test_acc_best: 0.697000
-Epoch: 021, Loss: 1.928819, Train: 0.942857, Val: 0.688000, Test: 0.703000, Test_acc_best: 0.703000
-Epoch: 022, Loss: 1.928400, Train: 0.942857, Val: 0.694000, Test: 0.705000, Test_acc_best: 0.705000
-Epoch: 023, Loss: 1.928873, Train: 0.942857, Val: 0.702000, Test: 0.711000, Test_acc_best: 0.711000
-Epoch: 024, Loss: 1.927024, Train: 0.942857, Val: 0.706000, Test: 0.717000, Test_acc_best: 0.717000
-Epoch: 025, Loss: 1.926597, Train: 0.942857, Val: 0.702000, Test: 0.725000, Test_acc_best: 0.725000
-Epoch: 026, Loss: 1.924543, Train: 0.950000, Val: 0.710000, Test: 0.727000, Test_acc_best: 0.727000
-Epoch: 027, Loss: 1.922878, Train: 0.950000, Val: 0.714000, Test: 0.730000, Test_acc_best: 0.730000
-Epoch: 028, Loss: 1.921451, Train: 0.950000, Val: 0.716000, Test: 0.732000, Test_acc_best: 0.732000
-Epoch: 029, Loss: 1.920120, Train: 0.950000, Val: 0.718000, Test: 0.738000, Test_acc_best: 0.738000
-Epoch: 030, Loss: 1.920620, Train: 0.950000, Val: 0.724000, Test: 0.744000, Test_acc_best: 0.744000
-Epoch: 031, Loss: 1.918289, Train: 0.950000, Val: 0.732000, Test: 0.745000, Test_acc_best: 0.745000
-Epoch: 032, Loss: 1.916231, Train: 0.957143, Val: 0.732000, Test: 0.747000, Test_acc_best: 0.747000
-Epoch: 033, Loss: 1.914893, Train: 0.957143, Val: 0.730000, Test: 0.747000, Test_acc_best: 0.747000
-Epoch: 034, Loss: 1.915652, Train: 0.957143, Val: 0.726000, Test: 0.746000, Test_acc_best: 0.747000
-Epoch: 035, Loss: 1.915507, Train: 0.957143, Val: 0.728000, Test: 0.749000, Test_acc_best: 0.749000
-Epoch: 036, Loss: 1.911809, Train: 0.957143, Val: 0.734000, Test: 0.751000, Test_acc_best: 0.751000
-Epoch: 037, Loss: 1.910945, Train: 0.957143, Val: 0.734000, Test: 0.749000, Test_acc_best: 0.751000
-Epoch: 038, Loss: 1.911569, Train: 0.957143, Val: 0.734000, Test: 0.752000, Test_acc_best: 0.752000
-Epoch: 039, Loss: 1.910499, Train: 0.957143, Val: 0.736000, Test: 0.754000, Test_acc_best: 0.754000
-Epoch: 040, Loss: 1.902466, Train: 0.957143, Val: 0.738000, Test: 0.758000, Test_acc_best: 0.758000
-Epoch: 041, Loss: 1.907040, Train: 0.957143, Val: 0.738000, Test: 0.759000, Test_acc_best: 0.759000
-Epoch: 042, Loss: 1.904507, Train: 0.957143, Val: 0.738000, Test: 0.757000, Test_acc_best: 0.759000
-Epoch: 043, Loss: 1.903501, Train: 0.957143, Val: 0.738000, Test: 0.759000, Test_acc_best: 0.759000
-Epoch: 044, Loss: 1.902140, Train: 0.957143, Val: 0.742000, Test: 0.762000, Test_acc_best: 0.762000
-Epoch: 045, Loss: 1.897866, Train: 0.957143, Val: 0.746000, Test: 0.761000, Test_acc_best: 0.762000
-Epoch: 046, Loss: 1.899624, Train: 0.957143, Val: 0.744000, Test: 0.763000, Test_acc_best: 0.763000
-Epoch: 047, Loss: 1.897567, Train: 0.957143, Val: 0.746000, Test: 0.762000, Test_acc_best: 0.763000
-Epoch: 048, Loss: 1.896747, Train: 0.957143, Val: 0.748000, Test: 0.761000, Test_acc_best: 0.763000
-Epoch: 049, Loss: 1.894845, Train: 0.957143, Val: 0.752000, Test: 0.764000, Test_acc_best: 0.764000
-Epoch: 050, Loss: 1.892282, Train: 0.957143, Val: 0.758000, Test: 0.768000, Test_acc_best: 0.768000
-Epoch: 051, Loss: 1.891903, Train: 0.957143, Val: 0.760000, Test: 0.771000, Test_acc_best: 0.771000
-Epoch: 052, Loss: 1.889981, Train: 0.957143, Val: 0.760000, Test: 0.778000, Test_acc_best: 0.778000
-Epoch: 053, Loss: 1.892330, Train: 0.957143, Val: 0.766000, Test: 0.778000, Test_acc_best: 0.778000
-Epoch: 054, Loss: 1.884907, Train: 0.957143, Val: 0.768000, Test: 0.779000, Test_acc_best: 0.779000
-Epoch: 055, Loss: 1.885663, Train: 0.957143, Val: 0.768000, Test: 0.780000, Test_acc_best: 0.780000
-Epoch: 056, Loss: 1.882574, Train: 0.964286, Val: 0.768000, Test: 0.781000, Test_acc_best: 0.781000
-Epoch: 057, Loss: 1.879859, Train: 0.964286, Val: 0.770000, Test: 0.787000, Test_acc_best: 0.787000
-Epoch: 058, Loss: 1.879233, Train: 0.964286, Val: 0.774000, Test: 0.791000, Test_acc_best: 0.791000
-Epoch: 059, Loss: 1.875780, Train: 0.964286, Val: 0.776000, Test: 0.793000, Test_acc_best: 0.793000
-Epoch: 060, Loss: 1.875995, Train: 0.964286, Val: 0.772000, Test: 0.796000, Test_acc_best: 0.796000
-Epoch: 061, Loss: 1.875586, Train: 0.971429, Val: 0.774000, Test: 0.796000, Test_acc_best: 0.796000
-Epoch: 062, Loss: 1.873914, Train: 0.971429, Val: 0.774000, Test: 0.797000, Test_acc_best: 0.797000
-Epoch: 063, Loss: 1.871227, Train: 0.971429, Val: 0.774000, Test: 0.796000, Test_acc_best: 0.797000
-Epoch: 064, Loss: 1.873931, Train: 0.971429, Val: 0.774000, Test: 0.798000, Test_acc_best: 0.798000
-Epoch: 065, Loss: 1.867359, Train: 0.971429, Val: 0.774000, Test: 0.797000, Test_acc_best: 0.798000
-Epoch: 066, Loss: 1.862827, Train: 0.971429, Val: 0.774000, Test: 0.796000, Test_acc_best: 0.798000
-Epoch: 067, Loss: 1.865660, Train: 0.971429, Val: 0.774000, Test: 0.797000, Test_acc_best: 0.798000
-Epoch: 068, Loss: 1.860394, Train: 0.971429, Val: 0.774000, Test: 0.797000, Test_acc_best: 0.798000
-Epoch: 069, Loss: 1.859526, Train: 0.971429, Val: 0.774000, Test: 0.796000, Test_acc_best: 0.798000
-Epoch: 070, Loss: 1.858702, Train: 0.971429, Val: 0.774000, Test: 0.798000, Test_acc_best: 0.798000
-Epoch: 071, Loss: 1.850478, Train: 0.971429, Val: 0.774000, Test: 0.796000, Test_acc_best: 0.798000
-Epoch: 072, Loss: 1.850260, Train: 0.971429, Val: 0.776000, Test: 0.796000, Test_acc_best: 0.798000
-Epoch: 073, Loss: 1.847604, Train: 0.971429, Val: 0.776000, Test: 0.796000, Test_acc_best: 0.798000
-Epoch: 074, Loss: 1.847558, Train: 0.971429, Val: 0.776000, Test: 0.798000, Test_acc_best: 0.798000
-Epoch: 075, Loss: 1.847265, Train: 0.971429, Val: 0.776000, Test: 0.797000, Test_acc_best: 0.798000
-Epoch: 076, Loss: 1.843601, Train: 0.971429, Val: 0.774000, Test: 0.796000, Test_acc_best: 0.798000
-Epoch: 077, Loss: 1.846794, Train: 0.971429, Val: 0.774000, Test: 0.796000, Test_acc_best: 0.798000
-Epoch: 078, Loss: 1.839979, Train: 0.971429, Val: 0.772000, Test: 0.795000, Test_acc_best: 0.798000
-Epoch: 079, Loss: 1.847875, Train: 0.971429, Val: 0.772000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 080, Loss: 1.836293, Train: 0.971429, Val: 0.772000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 081, Loss: 1.837276, Train: 0.971429, Val: 0.772000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 082, Loss: 1.832570, Train: 0.971429, Val: 0.772000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 083, Loss: 1.834186, Train: 0.971429, Val: 0.772000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 084, Loss: 1.826981, Train: 0.971429, Val: 0.772000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 085, Loss: 1.829602, Train: 0.971429, Val: 0.772000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 086, Loss: 1.826868, Train: 0.971429, Val: 0.772000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 087, Loss: 1.820897, Train: 0.971429, Val: 0.772000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 088, Loss: 1.823633, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 089, Loss: 1.826300, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 090, Loss: 1.811063, Train: 0.971429, Val: 0.774000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 091, Loss: 1.811314, Train: 0.971429, Val: 0.774000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 092, Loss: 1.810565, Train: 0.971429, Val: 0.774000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 093, Loss: 1.808513, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 094, Loss: 1.807211, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 095, Loss: 1.807489, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 096, Loss: 1.804324, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 097, Loss: 1.800187, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 098, Loss: 1.794268, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 099, Loss: 1.793880, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 100, Loss: 1.795810, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 101, Loss: 1.793325, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 102, Loss: 1.786503, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 103, Loss: 1.791742, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 104, Loss: 1.787173, Train: 0.971429, Val: 0.772000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 105, Loss: 1.779106, Train: 0.971429, Val: 0.772000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 106, Loss: 1.769432, Train: 0.971429, Val: 0.772000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 107, Loss: 1.780768, Train: 0.971429, Val: 0.772000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 108, Loss: 1.775368, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 109, Loss: 1.769726, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 110, Loss: 1.773900, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 111, Loss: 1.765874, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 112, Loss: 1.773150, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 113, Loss: 1.764425, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 114, Loss: 1.762255, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 115, Loss: 1.752668, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 116, Loss: 1.753105, Train: 0.971429, Val: 0.774000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 117, Loss: 1.752030, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 118, Loss: 1.748520, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 119, Loss: 1.744529, Train: 0.971429, Val: 0.772000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 120, Loss: 1.745579, Train: 0.971429, Val: 0.772000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 121, Loss: 1.740587, Train: 0.971429, Val: 0.772000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 122, Loss: 1.740135, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 123, Loss: 1.748133, Train: 0.971429, Val: 0.772000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 124, Loss: 1.735898, Train: 0.971429, Val: 0.770000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 125, Loss: 1.735786, Train: 0.971429, Val: 0.770000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 126, Loss: 1.723027, Train: 0.971429, Val: 0.772000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 127, Loss: 1.714912, Train: 0.971429, Val: 0.772000, Test: 0.790000, Test_acc_best: 0.798000
-Epoch: 128, Loss: 1.724363, Train: 0.971429, Val: 0.772000, Test: 0.790000, Test_acc_best: 0.798000
-Epoch: 129, Loss: 1.727036, Train: 0.971429, Val: 0.772000, Test: 0.790000, Test_acc_best: 0.798000
-Epoch: 130, Loss: 1.704658, Train: 0.971429, Val: 0.772000, Test: 0.790000, Test_acc_best: 0.798000
-Epoch: 131, Loss: 1.723497, Train: 0.971429, Val: 0.774000, Test: 0.789000, Test_acc_best: 0.798000
-Epoch: 132, Loss: 1.714752, Train: 0.971429, Val: 0.774000, Test: 0.789000, Test_acc_best: 0.798000
-Epoch: 133, Loss: 1.703735, Train: 0.971429, Val: 0.774000, Test: 0.788000, Test_acc_best: 0.798000
-Epoch: 134, Loss: 1.707782, Train: 0.971429, Val: 0.776000, Test: 0.788000, Test_acc_best: 0.798000
-Epoch: 135, Loss: 1.709505, Train: 0.971429, Val: 0.778000, Test: 0.789000, Test_acc_best: 0.798000
-Epoch: 136, Loss: 1.703882, Train: 0.971429, Val: 0.778000, Test: 0.789000, Test_acc_best: 0.798000
-Epoch: 137, Loss: 1.699703, Train: 0.971429, Val: 0.778000, Test: 0.789000, Test_acc_best: 0.798000
-Epoch: 138, Loss: 1.694573, Train: 0.971429, Val: 0.778000, Test: 0.789000, Test_acc_best: 0.798000
-Epoch: 139, Loss: 1.692766, Train: 0.971429, Val: 0.778000, Test: 0.789000, Test_acc_best: 0.798000
-Epoch: 140, Loss: 1.694183, Train: 0.971429, Val: 0.778000, Test: 0.789000, Test_acc_best: 0.798000
-Epoch: 141, Loss: 1.688192, Train: 0.971429, Val: 0.776000, Test: 0.789000, Test_acc_best: 0.798000
-Epoch: 142, Loss: 1.678740, Train: 0.971429, Val: 0.776000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 143, Loss: 1.681893, Train: 0.971429, Val: 0.778000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 144, Loss: 1.678462, Train: 0.971429, Val: 0.776000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 145, Loss: 1.667207, Train: 0.971429, Val: 0.776000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 146, Loss: 1.670125, Train: 0.971429, Val: 0.776000, Test: 0.791000, Test_acc_best: 0.798000
-Epoch: 147, Loss: 1.661040, Train: 0.971429, Val: 0.776000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 148, Loss: 1.661733, Train: 0.971429, Val: 0.776000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 149, Loss: 1.675404, Train: 0.971429, Val: 0.776000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 150, Loss: 1.653313, Train: 0.971429, Val: 0.776000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 151, Loss: 1.662124, Train: 0.971429, Val: 0.776000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 152, Loss: 1.652951, Train: 0.971429, Val: 0.776000, Test: 0.792000, Test_acc_best: 0.798000
-Epoch: 153, Loss: 1.645118, Train: 0.971429, Val: 0.776000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 154, Loss: 1.648493, Train: 0.971429, Val: 0.776000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 155, Loss: 1.651675, Train: 0.971429, Val: 0.776000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 156, Loss: 1.639367, Train: 0.971429, Val: 0.774000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 157, Loss: 1.639122, Train: 0.971429, Val: 0.772000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 158, Loss: 1.635875, Train: 0.971429, Val: 0.772000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 159, Loss: 1.623237, Train: 0.971429, Val: 0.772000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 160, Loss: 1.617500, Train: 0.971429, Val: 0.772000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 161, Loss: 1.623109, Train: 0.971429, Val: 0.772000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 162, Loss: 1.625594, Train: 0.971429, Val: 0.772000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 163, Loss: 1.625196, Train: 0.971429, Val: 0.772000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 164, Loss: 1.632685, Train: 0.971429, Val: 0.772000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 165, Loss: 1.621754, Train: 0.971429, Val: 0.772000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 166, Loss: 1.619557, Train: 0.971429, Val: 0.774000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 167, Loss: 1.599231, Train: 0.971429, Val: 0.774000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 168, Loss: 1.603706, Train: 0.978571, Val: 0.774000, Test: 0.793000, Test_acc_best: 0.798000
-Epoch: 169, Loss: 1.607944, Train: 0.978571, Val: 0.774000, Test: 0.794000, Test_acc_best: 0.798000
-Epoch: 170, Loss: 1.605616, Train: 0.978571, Val: 0.774000, Test: 0.796000, Test_acc_best: 0.798000
-Epoch: 171, Loss: 1.590631, Train: 0.978571, Val: 0.774000, Test: 0.797000, Test_acc_best: 0.798000
-Epoch: 172, Loss: 1.593304, Train: 0.978571, Val: 0.774000, Test: 0.797000, Test_acc_best: 0.798000
-Epoch: 173, Loss: 1.598073, Train: 0.978571, Val: 0.774000, Test: 0.797000, Test_acc_best: 0.798000
-Epoch: 174, Loss: 1.593226, Train: 0.978571, Val: 0.774000, Test: 0.797000, Test_acc_best: 0.798000
-Epoch: 175, Loss: 1.591657, Train: 0.978571, Val: 0.774000, Test: 0.798000, Test_acc_best: 0.798000
-Epoch: 176, Loss: 1.565230, Train: 0.978571, Val: 0.774000, Test: 0.799000, Test_acc_best: 0.799000
-Epoch: 177, Loss: 1.594205, Train: 0.978571, Val: 0.774000, Test: 0.799000, Test_acc_best: 0.799000
-Epoch: 178, Loss: 1.570421, Train: 0.978571, Val: 0.774000, Test: 0.799000, Test_acc_best: 0.799000
-Epoch: 179, Loss: 1.576142, Train: 0.978571, Val: 0.774000, Test: 0.799000, Test_acc_best: 0.799000
-Epoch: 180, Loss: 1.567809, Train: 0.978571, Val: 0.774000, Test: 0.799000, Test_acc_best: 0.799000
-Epoch: 181, Loss: 1.570128, Train: 0.978571, Val: 0.774000, Test: 0.799000, Test_acc_best: 0.799000
-Epoch: 182, Loss: 1.559886, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.801000
-Epoch: 183, Loss: 1.562389, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.801000
-Epoch: 184, Loss: 1.556924, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.801000
-Epoch: 185, Loss: 1.549201, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.801000
-Epoch: 186, Loss: 1.556634, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.801000
-Epoch: 187, Loss: 1.556711, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.801000
-Epoch: 188, Loss: 1.542615, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.801000
-Epoch: 189, Loss: 1.528809, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.801000
-Epoch: 190, Loss: 1.539141, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.802000
-Epoch: 191, Loss: 1.522723, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.802000
-Epoch: 192, Loss: 1.527310, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.802000
-Epoch: 193, Loss: 1.520965, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.802000
-Epoch: 194, Loss: 1.517627, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.802000
-Epoch: 195, Loss: 1.526593, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.802000
-Epoch: 196, Loss: 1.510309, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.802000
-Epoch: 197, Loss: 1.520392, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.802000
-Epoch: 198, Loss: 1.511130, Train: 0.978571, Val: 0.774000, Test: 0.803000, Test_acc_best: 0.803000
-Epoch: 199, Loss: 1.504443, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 200, Loss: 1.498939, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 201, Loss: 1.496714, Train: 0.978571, Val: 0.774000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 202, Loss: 1.484156, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 203, Loss: 1.493831, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 204, Loss: 1.483642, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.804000
-Epoch: 205, Loss: 1.483287, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.804000
-Epoch: 206, Loss: 1.484122, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.804000
-Epoch: 207, Loss: 1.481652, Train: 0.978571, Val: 0.774000, Test: 0.801000, Test_acc_best: 0.804000
-Epoch: 208, Loss: 1.481587, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 209, Loss: 1.464234, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 210, Loss: 1.472731, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 211, Loss: 1.463822, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 212, Loss: 1.460027, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 213, Loss: 1.456837, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 214, Loss: 1.452490, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 215, Loss: 1.469655, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 216, Loss: 1.435107, Train: 0.978571, Val: 0.774000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 217, Loss: 1.438977, Train: 0.978571, Val: 0.774000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 218, Loss: 1.446916, Train: 0.978571, Val: 0.774000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 219, Loss: 1.428159, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 220, Loss: 1.431269, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 221, Loss: 1.421386, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 222, Loss: 1.418189, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 223, Loss: 1.444953, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 224, Loss: 1.412137, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 225, Loss: 1.420298, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 226, Loss: 1.423254, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 227, Loss: 1.430925, Train: 0.978571, Val: 0.774000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 228, Loss: 1.413836, Train: 0.978571, Val: 0.772000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 229, Loss: 1.386016, Train: 0.978571, Val: 0.772000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 230, Loss: 1.395621, Train: 0.978571, Val: 0.772000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 231, Loss: 1.398510, Train: 0.978571, Val: 0.772000, Test: 0.802000, Test_acc_best: 0.804000
-Epoch: 232, Loss: 1.394583, Train: 0.978571, Val: 0.772000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 233, Loss: 1.391402, Train: 0.978571, Val: 0.772000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 234, Loss: 1.386781, Train: 0.978571, Val: 0.772000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 235, Loss: 1.360125, Train: 0.978571, Val: 0.772000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 236, Loss: 1.368832, Train: 0.978571, Val: 0.770000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 237, Loss: 1.382390, Train: 0.978571, Val: 0.770000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 238, Loss: 1.378059, Train: 0.978571, Val: 0.770000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 239, Loss: 1.360510, Train: 0.978571, Val: 0.770000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 240, Loss: 1.359763, Train: 0.978571, Val: 0.770000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 241, Loss: 1.366369, Train: 0.978571, Val: 0.770000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 242, Loss: 1.353963, Train: 0.978571, Val: 0.770000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 243, Loss: 1.347217, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 244, Loss: 1.373899, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 245, Loss: 1.349089, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 246, Loss: 1.338443, Train: 0.978571, Val: 0.774000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 247, Loss: 1.345801, Train: 0.978571, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 248, Loss: 1.333204, Train: 0.978571, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 249, Loss: 1.345699, Train: 0.978571, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 250, Loss: 1.333134, Train: 0.978571, Val: 0.778000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 251, Loss: 1.325374, Train: 0.978571, Val: 0.778000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 252, Loss: 1.322656, Train: 0.978571, Val: 0.778000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 253, Loss: 1.305447, Train: 0.978571, Val: 0.778000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 254, Loss: 1.303573, Train: 0.978571, Val: 0.778000, Test: 0.803000, Test_acc_best: 0.804000
-Epoch: 255, Loss: 1.314849, Train: 0.978571, Val: 0.778000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 256, Loss: 1.318295, Train: 0.978571, Val: 0.778000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 257, Loss: 1.301386, Train: 0.978571, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 258, Loss: 1.300403, Train: 0.978571, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 259, Loss: 1.299784, Train: 0.978571, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 260, Loss: 1.305307, Train: 0.978571, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 261, Loss: 1.296990, Train: 0.978571, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.804000
-Epoch: 262, Loss: 1.303185, Train: 0.978571, Val: 0.776000, Test: 0.805000, Test_acc_best: 0.805000
-Epoch: 263, Loss: 1.289530, Train: 0.978571, Val: 0.776000, Test: 0.805000, Test_acc_best: 0.805000
-Epoch: 264, Loss: 1.271980, Train: 0.978571, Val: 0.776000, Test: 0.805000, Test_acc_best: 0.805000
-Epoch: 265, Loss: 1.283208, Train: 0.978571, Val: 0.776000, Test: 0.805000, Test_acc_best: 0.805000
-Epoch: 266, Loss: 1.265600, Train: 0.985714, Val: 0.776000, Test: 0.805000, Test_acc_best: 0.805000
-Epoch: 267, Loss: 1.280050, Train: 0.985714, Val: 0.776000, Test: 0.805000, Test_acc_best: 0.805000
-Epoch: 268, Loss: 1.271280, Train: 0.985714, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.805000
-Epoch: 269, Loss: 1.257900, Train: 0.985714, Val: 0.776000, Test: 0.804000, Test_acc_best: 0.805000
-Epoch: 270, Loss: 1.244740, Train: 0.985714, Val: 0.776000, Test: 0.806000, Test_acc_best: 0.806000
-Epoch: 271, Loss: 1.277232, Train: 0.985714, Val: 0.776000, Test: 0.806000, Test_acc_best: 0.806000
-Epoch: 272, Loss: 1.266296, Train: 0.985714, Val: 0.776000, Test: 0.806000, Test_acc_best: 0.806000
-Epoch: 273, Loss: 1.252284, Train: 0.985714, Val: 0.776000, Test: 0.806000, Test_acc_best: 0.806000
-Epoch: 274, Loss: 1.267537, Train: 0.985714, Val: 0.776000, Test: 0.806000, Test_acc_best: 0.806000
-Epoch: 275, Loss: 1.248412, Train: 0.985714, Val: 0.776000, Test: 0.806000, Test_acc_best: 0.806000
-Epoch: 276, Loss: 1.251602, Train: 0.985714, Val: 0.776000, Test: 0.807000, Test_acc_best: 0.807000
-Epoch: 277, Loss: 1.232195, Train: 0.985714, Val: 0.776000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 278, Loss: 1.236279, Train: 0.985714, Val: 0.778000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 279, Loss: 1.239220, Train: 0.985714, Val: 0.778000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 280, Loss: 1.233563, Train: 0.985714, Val: 0.778000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 281, Loss: 1.235272, Train: 0.985714, Val: 0.778000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 282, Loss: 1.210597, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 283, Loss: 1.213037, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 284, Loss: 1.201978, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 285, Loss: 1.217561, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 286, Loss: 1.215695, Train: 0.985714, Val: 0.778000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 287, Loss: 1.208277, Train: 0.985714, Val: 0.778000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 288, Loss: 1.204032, Train: 0.985714, Val: 0.778000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 289, Loss: 1.213569, Train: 0.985714, Val: 0.778000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 290, Loss: 1.203291, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 291, Loss: 1.205389, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 292, Loss: 1.209628, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 293, Loss: 1.186288, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 294, Loss: 1.195391, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 295, Loss: 1.218158, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 296, Loss: 1.201309, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 297, Loss: 1.186400, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 298, Loss: 1.159779, Train: 0.985714, Val: 0.780000, Test: 0.808000, Test_acc_best: 0.808000
-Epoch: 299, Loss: 1.180293, Train: 0.985714, Val: 0.780000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 300, Loss: 1.174410, Train: 0.985714, Val: 0.780000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 301, Loss: 1.160861, Train: 0.985714, Val: 0.778000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 302, Loss: 1.141601, Train: 0.985714, Val: 0.778000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 303, Loss: 1.149205, Train: 0.985714, Val: 0.778000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 304, Loss: 1.137031, Train: 0.985714, Val: 0.780000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 305, Loss: 1.143813, Train: 0.985714, Val: 0.780000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 306, Loss: 1.137183, Train: 0.985714, Val: 0.782000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 307, Loss: 1.140793, Train: 0.985714, Val: 0.782000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 308, Loss: 1.140419, Train: 0.985714, Val: 0.782000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 309, Loss: 1.137166, Train: 0.985714, Val: 0.784000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 310, Loss: 1.138928, Train: 0.985714, Val: 0.784000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 311, Loss: 1.140702, Train: 0.985714, Val: 0.784000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 312, Loss: 1.139186, Train: 0.985714, Val: 0.784000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 313, Loss: 1.121188, Train: 0.985714, Val: 0.784000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 314, Loss: 1.118509, Train: 0.985714, Val: 0.784000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 315, Loss: 1.116649, Train: 0.985714, Val: 0.784000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 316, Loss: 1.119622, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 317, Loss: 1.091661, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 318, Loss: 1.097990, Train: 0.985714, Val: 0.786000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 319, Loss: 1.105341, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 320, Loss: 1.091784, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 321, Loss: 1.107907, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 322, Loss: 1.099913, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 323, Loss: 1.115942, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 324, Loss: 1.060373, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 325, Loss: 1.069635, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 326, Loss: 1.101137, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 327, Loss: 1.090797, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 328, Loss: 1.064764, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 329, Loss: 1.091051, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 330, Loss: 1.088207, Train: 0.985714, Val: 0.786000, Test: 0.808000, Test_acc_best: 0.809000
-Epoch: 331, Loss: 1.048160, Train: 0.985714, Val: 0.786000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 332, Loss: 1.077517, Train: 0.985714, Val: 0.786000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 333, Loss: 1.057606, Train: 0.985714, Val: 0.786000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 334, Loss: 1.058051, Train: 0.985714, Val: 0.786000, Test: 0.809000, Test_acc_best: 0.809000
-Epoch: 335, Loss: 1.048977, Train: 0.985714, Val: 0.786000, Test: 0.810000, Test_acc_best: 0.810000
-Epoch: 336, Loss: 1.046977, Train: 0.985714, Val: 0.786000, Test: 0.810000, Test_acc_best: 0.810000
-Epoch: 337, Loss: 1.035076, Train: 0.985714, Val: 0.786000, Test: 0.811000, Test_acc_best: 0.811000
-Epoch: 338, Loss: 1.045076, Train: 0.985714, Val: 0.786000, Test: 0.811000, Test_acc_best: 0.811000
-Epoch: 339, Loss: 1.049965, Train: 0.985714, Val: 0.786000, Test: 0.810000, Test_acc_best: 0.811000
-Epoch: 340, Loss: 1.046074, Train: 0.985714, Val: 0.786000, Test: 0.810000, Test_acc_best: 0.811000
-Epoch: 341, Loss: 1.045671, Train: 0.985714, Val: 0.786000, Test: 0.810000, Test_acc_best: 0.811000
-Epoch: 342, Loss: 1.041346, Train: 0.985714, Val: 0.786000, Test: 0.809000, Test_acc_best: 0.811000
-Epoch: 343, Loss: 1.002874, Train: 0.985714, Val: 0.786000, Test: 0.810000, Test_acc_best: 0.811000
-Epoch: 344, Loss: 1.026706, Train: 0.985714, Val: 0.786000, Test: 0.810000, Test_acc_best: 0.811000
-Epoch: 345, Loss: 0.983121, Train: 0.985714, Val: 0.786000, Test: 0.810000, Test_acc_best: 0.811000
-Epoch: 346, Loss: 1.012559, Train: 0.985714, Val: 0.786000, Test: 0.810000, Test_acc_best: 0.811000
-Epoch: 347, Loss: 1.006539, Train: 0.985714, Val: 0.786000, Test: 0.811000, Test_acc_best: 0.811000
-Epoch: 348, Loss: 0.977832, Train: 0.985714, Val: 0.786000, Test: 0.811000, Test_acc_best: 0.811000
-Epoch: 349, Loss: 1.003652, Train: 0.985714, Val: 0.786000, Test: 0.811000, Test_acc_best: 0.811000
-Epoch: 350, Loss: 0.985698, Train: 0.985714, Val: 0.786000, Test: 0.812000, Test_acc_best: 0.812000
-Epoch: 351, Loss: 0.992275, Train: 0.985714, Val: 0.786000, Test: 0.812000, Test_acc_best: 0.812000
-Epoch: 352, Loss: 1.031121, Train: 0.985714, Val: 0.788000, Test: 0.812000, Test_acc_best: 0.812000
-Epoch: 353, Loss: 0.997938, Train: 0.985714, Val: 0.788000, Test: 0.812000, Test_acc_best: 0.812000
-Epoch: 354, Loss: 1.012442, Train: 0.985714, Val: 0.788000, Test: 0.812000, Test_acc_best: 0.812000
-Epoch: 355, Loss: 0.990125, Train: 0.985714, Val: 0.788000, Test: 0.812000, Test_acc_best: 0.812000
-Epoch: 356, Loss: 0.997345, Train: 0.985714, Val: 0.788000, Test: 0.812000, Test_acc_best: 0.812000
-Epoch: 357, Loss: 1.002332, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.814000
-Epoch: 358, Loss: 0.975879, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.814000
-Epoch: 359, Loss: 0.991356, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.814000
-Epoch: 360, Loss: 1.017988, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.814000
-Epoch: 361, Loss: 0.964786, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.814000
-Epoch: 362, Loss: 0.974693, Train: 0.985714, Val: 0.788000, Test: 0.813000, Test_acc_best: 0.814000
-Epoch: 363, Loss: 0.986846, Train: 0.985714, Val: 0.788000, Test: 0.815000, Test_acc_best: 0.815000
-Epoch: 364, Loss: 0.960918, Train: 0.985714, Val: 0.788000, Test: 0.815000, Test_acc_best: 0.815000
-Epoch: 365, Loss: 0.976784, Train: 0.985714, Val: 0.788000, Test: 0.815000, Test_acc_best: 0.815000
-Epoch: 366, Loss: 0.983894, Train: 0.985714, Val: 0.788000, Test: 0.815000, Test_acc_best: 0.815000
-Epoch: 367, Loss: 0.996077, Train: 0.985714, Val: 0.788000, Test: 0.815000, Test_acc_best: 0.815000
-Epoch: 368, Loss: 0.963066, Train: 0.985714, Val: 0.788000, Test: 0.815000, Test_acc_best: 0.815000
-Epoch: 369, Loss: 0.940320, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 370, Loss: 0.942707, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 371, Loss: 0.949729, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 372, Loss: 0.931961, Train: 0.985714, Val: 0.788000, Test: 0.815000, Test_acc_best: 0.816000
-Epoch: 373, Loss: 0.938760, Train: 0.985714, Val: 0.788000, Test: 0.815000, Test_acc_best: 0.816000
-Epoch: 374, Loss: 0.954394, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 375, Loss: 0.931962, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 376, Loss: 0.939051, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 377, Loss: 0.927229, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 378, Loss: 0.942305, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 379, Loss: 0.936135, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 380, Loss: 0.916638, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 381, Loss: 0.920024, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 382, Loss: 0.924580, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 383, Loss: 0.924656, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 384, Loss: 0.911328, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 385, Loss: 0.910049, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 386, Loss: 0.907351, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 387, Loss: 0.897287, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 388, Loss: 0.893220, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.816000
-Epoch: 389, Loss: 0.899616, Train: 0.985714, Val: 0.788000, Test: 0.813000, Test_acc_best: 0.816000
-Epoch: 390, Loss: 0.908968, Train: 0.985714, Val: 0.788000, Test: 0.813000, Test_acc_best: 0.816000
-Epoch: 391, Loss: 0.897444, Train: 0.985714, Val: 0.788000, Test: 0.813000, Test_acc_best: 0.816000
-Epoch: 392, Loss: 0.879537, Train: 0.985714, Val: 0.788000, Test: 0.813000, Test_acc_best: 0.816000
-Epoch: 393, Loss: 0.879672, Train: 0.985714, Val: 0.788000, Test: 0.813000, Test_acc_best: 0.816000
-Epoch: 394, Loss: 0.921615, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.816000
-Epoch: 395, Loss: 0.886070, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.816000
-Epoch: 396, Loss: 0.851141, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.816000
-Epoch: 397, Loss: 0.889237, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.816000
-Epoch: 398, Loss: 0.853779, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.816000
-Epoch: 399, Loss: 0.872307, Train: 0.985714, Val: 0.788000, Test: 0.814000, Test_acc_best: 0.816000
-Epoch: 400, Loss: 0.872092, Train: 0.985714, Val: 0.788000, Test: 0.815000, Test_acc_best: 0.816000
-Epoch: 401, Loss: 0.854297, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 402, Loss: 0.854943, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 403, Loss: 0.869765, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 404, Loss: 0.848959, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 405, Loss: 0.854055, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 406, Loss: 0.849842, Train: 0.985714, Val: 0.788000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 407, Loss: 0.851731, Train: 0.985714, Val: 0.790000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 408, Loss: 0.840530, Train: 0.985714, Val: 0.790000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 409, Loss: 0.855614, Train: 0.985714, Val: 0.790000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 410, Loss: 0.861071, Train: 0.985714, Val: 0.790000, Test: 0.816000, Test_acc_best: 0.816000
-Epoch: 411, Loss: 0.821491, Train: 0.985714, Val: 0.790000, Test: 0.817000, Test_acc_best: 0.817000
-Epoch: 412, Loss: 0.858802, Train: 0.985714, Val: 0.790000, Test: 0.817000, Test_acc_best: 0.817000
-Epoch: 413, Loss: 0.819042, Train: 0.985714, Val: 0.790000, Test: 0.817000, Test_acc_best: 0.817000
-Epoch: 414, Loss: 0.822090, Train: 0.985714, Val: 0.790000, Test: 0.817000, Test_acc_best: 0.817000
-Epoch: 415, Loss: 0.846095, Train: 0.985714, Val: 0.790000, Test: 0.817000, Test_acc_best: 0.817000
-Epoch: 416, Loss: 0.835247, Train: 0.985714, Val: 0.790000, Test: 0.817000, Test_acc_best: 0.817000
-Epoch: 417, Loss: 0.820880, Train: 0.985714, Val: 0.790000, Test: 0.817000, Test_acc_best: 0.817000
-Epoch: 418, Loss: 0.825277, Train: 0.985714, Val: 0.790000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 419, Loss: 0.840869, Train: 0.985714, Val: 0.790000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 420, Loss: 0.829472, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 421, Loss: 0.827707, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 422, Loss: 0.816002, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 423, Loss: 0.825580, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 424, Loss: 0.804794, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 425, Loss: 0.840490, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 426, Loss: 0.819392, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 427, Loss: 0.828936, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 428, Loss: 0.820124, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 429, Loss: 0.821007, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 430, Loss: 0.820294, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 431, Loss: 0.805860, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 432, Loss: 0.808797, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 433, Loss: 0.779951, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 434, Loss: 0.772252, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 435, Loss: 0.788812, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 436, Loss: 0.776041, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 437, Loss: 0.770151, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 438, Loss: 0.780083, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 439, Loss: 0.760194, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 440, Loss: 0.780206, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 441, Loss: 0.789277, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.818000
-Epoch: 442, Loss: 0.800110, Train: 0.985714, Val: 0.792000, Test: 0.819000, Test_acc_best: 0.819000
-Epoch: 443, Loss: 0.784052, Train: 0.985714, Val: 0.792000, Test: 0.819000, Test_acc_best: 0.819000
-Epoch: 444, Loss: 0.748547, Train: 0.985714, Val: 0.792000, Test: 0.819000, Test_acc_best: 0.819000
-Epoch: 445, Loss: 0.790899, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 446, Loss: 0.771034, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 447, Loss: 0.773635, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 448, Loss: 0.770442, Train: 0.985714, Val: 0.792000, Test: 0.817000, Test_acc_best: 0.819000
-Epoch: 449, Loss: 0.765552, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 450, Loss: 0.758003, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 451, Loss: 0.773769, Train: 0.985714, Val: 0.792000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 452, Loss: 0.753133, Train: 0.985714, Val: 0.794000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 453, Loss: 0.726375, Train: 0.985714, Val: 0.794000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 454, Loss: 0.739641, Train: 0.985714, Val: 0.794000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 455, Loss: 0.752262, Train: 0.985714, Val: 0.794000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 456, Loss: 0.766952, Train: 0.985714, Val: 0.794000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 457, Loss: 0.754351, Train: 0.985714, Val: 0.796000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 458, Loss: 0.721696, Train: 0.985714, Val: 0.796000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 459, Loss: 0.734691, Train: 0.985714, Val: 0.796000, Test: 0.818000, Test_acc_best: 0.819000
-Epoch: 460, Loss: 0.743062, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.819000
-Epoch: 461, Loss: 0.736385, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.819000
-Epoch: 462, Loss: 0.739522, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.819000
-Epoch: 463, Loss: 0.757414, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.819000
-Epoch: 464, Loss: 0.758976, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 465, Loss: 0.737062, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 466, Loss: 0.720315, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 467, Loss: 0.733944, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 468, Loss: 0.718688, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 469, Loss: 0.721703, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 470, Loss: 0.717696, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 471, Loss: 0.692756, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 472, Loss: 0.712374, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 473, Loss: 0.698015, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 474, Loss: 0.710836, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 475, Loss: 0.696200, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 476, Loss: 0.721239, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 477, Loss: 0.709883, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 478, Loss: 0.709522, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 479, Loss: 0.702279, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 480, Loss: 0.720568, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 481, Loss: 0.698648, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 482, Loss: 0.697361, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 483, Loss: 0.688602, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 484, Loss: 0.702451, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 485, Loss: 0.701509, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 486, Loss: 0.690803, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 487, Loss: 0.672339, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 488, Loss: 0.708688, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 489, Loss: 0.687496, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 490, Loss: 0.666536, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 491, Loss: 0.686016, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 492, Loss: 0.702553, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 493, Loss: 0.692485, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 494, Loss: 0.681126, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 495, Loss: 0.684916, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 496, Loss: 0.674995, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 497, Loss: 0.685556, Train: 0.985714, Val: 0.794000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 498, Loss: 0.648794, Train: 0.985714, Val: 0.794000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 499, Loss: 0.675590, Train: 0.985714, Val: 0.794000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 500, Loss: 0.656191, Train: 0.985714, Val: 0.794000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 501, Loss: 0.663763, Train: 0.985714, Val: 0.794000, Test: 0.819000, Test_acc_best: 0.820000
-Epoch: 502, Loss: 0.686543, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 503, Loss: 0.670944, Train: 0.985714, Val: 0.794000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 504, Loss: 0.670602, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 505, Loss: 0.634639, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 506, Loss: 0.680794, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.820000
-Epoch: 507, Loss: 0.668888, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.821000
-Epoch: 508, Loss: 0.658583, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 509, Loss: 0.655711, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 510, Loss: 0.647426, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 511, Loss: 0.667260, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.821000
-Epoch: 512, Loss: 0.650043, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.821000
-Epoch: 513, Loss: 0.644442, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 514, Loss: 0.629722, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 515, Loss: 0.656185, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 516, Loss: 0.647946, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 517, Loss: 0.641365, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 518, Loss: 0.642261, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 519, Loss: 0.625496, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 520, Loss: 0.627764, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.821000
-Epoch: 521, Loss: 0.637121, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.821000
-Epoch: 522, Loss: 0.613303, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.821000
-Epoch: 523, Loss: 0.632349, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.821000
-Epoch: 524, Loss: 0.644960, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.821000
-Epoch: 525, Loss: 0.603444, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.821000
-Epoch: 526, Loss: 0.631020, Train: 0.985714, Val: 0.796000, Test: 0.819000, Test_acc_best: 0.821000
-Epoch: 527, Loss: 0.609625, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.821000
-Epoch: 528, Loss: 0.617995, Train: 0.985714, Val: 0.798000, Test: 0.819000, Test_acc_best: 0.821000
-Epoch: 529, Loss: 0.596163, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 530, Loss: 0.607712, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 531, Loss: 0.596871, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 532, Loss: 0.606372, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 533, Loss: 0.599277, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 534, Loss: 0.596959, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 535, Loss: 0.607708, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.821000
-Epoch: 536, Loss: 0.602078, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.821000
-Epoch: 537, Loss: 0.636441, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.822000
-Epoch: 538, Loss: 0.613547, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.822000
-Epoch: 539, Loss: 0.607187, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.822000
-Epoch: 540, Loss: 0.597799, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 541, Loss: 0.597975, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 542, Loss: 0.619577, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 543, Loss: 0.585515, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 544, Loss: 0.585256, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 545, Loss: 0.606383, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 546, Loss: 0.624376, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 547, Loss: 0.593934, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 548, Loss: 0.606785, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 549, Loss: 0.625238, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 550, Loss: 0.609959, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 551, Loss: 0.583815, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 552, Loss: 0.608423, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 553, Loss: 0.578147, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 554, Loss: 0.544857, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 555, Loss: 0.615260, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 556, Loss: 0.570972, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 557, Loss: 0.587666, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 558, Loss: 0.584746, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 559, Loss: 0.603788, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 560, Loss: 0.576207, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 561, Loss: 0.592584, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 562, Loss: 0.560484, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 563, Loss: 0.582576, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 564, Loss: 0.593368, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 565, Loss: 0.580073, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 566, Loss: 0.571509, Train: 0.985714, Val: 0.796000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 567, Loss: 0.574403, Train: 0.985714, Val: 0.796000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 568, Loss: 0.582099, Train: 0.985714, Val: 0.796000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 569, Loss: 0.526124, Train: 0.985714, Val: 0.796000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 570, Loss: 0.563908, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 571, Loss: 0.572125, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 572, Loss: 0.579206, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 573, Loss: 0.568519, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 574, Loss: 0.571567, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 575, Loss: 0.566047, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 576, Loss: 0.566877, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 577, Loss: 0.555366, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 578, Loss: 0.544440, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 579, Loss: 0.557270, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 580, Loss: 0.532866, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 581, Loss: 0.548688, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 582, Loss: 0.559669, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 583, Loss: 0.537949, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 584, Loss: 0.532681, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 585, Loss: 0.559837, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 586, Loss: 0.573889, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 587, Loss: 0.537762, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 588, Loss: 0.561599, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 589, Loss: 0.561246, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 590, Loss: 0.564133, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 591, Loss: 0.533979, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 592, Loss: 0.539792, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 593, Loss: 0.526089, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 594, Loss: 0.511036, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 595, Loss: 0.528223, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 596, Loss: 0.503892, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 597, Loss: 0.530053, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 598, Loss: 0.520125, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 599, Loss: 0.540230, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 600, Loss: 0.545744, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 601, Loss: 0.538208, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 602, Loss: 0.519808, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 603, Loss: 0.505235, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 604, Loss: 0.528510, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 605, Loss: 0.528262, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 606, Loss: 0.526311, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 607, Loss: 0.525152, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 608, Loss: 0.534159, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 609, Loss: 0.530567, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 610, Loss: 0.539845, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 611, Loss: 0.508717, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 612, Loss: 0.502322, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 613, Loss: 0.507471, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 614, Loss: 0.503559, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 615, Loss: 0.524599, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 616, Loss: 0.498697, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 617, Loss: 0.476005, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 618, Loss: 0.514144, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 619, Loss: 0.528156, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 620, Loss: 0.510938, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 621, Loss: 0.499040, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 622, Loss: 0.524214, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 623, Loss: 0.489566, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 624, Loss: 0.490241, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 625, Loss: 0.502396, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 626, Loss: 0.510831, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 627, Loss: 0.504620, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 628, Loss: 0.508012, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 629, Loss: 0.516241, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 630, Loss: 0.487142, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 631, Loss: 0.509582, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 632, Loss: 0.514504, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 633, Loss: 0.492510, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 634, Loss: 0.490844, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 635, Loss: 0.514033, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 636, Loss: 0.489169, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 637, Loss: 0.505792, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 638, Loss: 0.493684, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 639, Loss: 0.485269, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 640, Loss: 0.477272, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 641, Loss: 0.484416, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 642, Loss: 0.469550, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 643, Loss: 0.488059, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 644, Loss: 0.499968, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 645, Loss: 0.490011, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 646, Loss: 0.483678, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 647, Loss: 0.467293, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 648, Loss: 0.482001, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 649, Loss: 0.469082, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 650, Loss: 0.466761, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 651, Loss: 0.467419, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 652, Loss: 0.486630, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 653, Loss: 0.476932, Train: 0.985714, Val: 0.798000, Test: 0.820000, Test_acc_best: 0.823000
-Epoch: 654, Loss: 0.473093, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 655, Loss: 0.467548, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 656, Loss: 0.461732, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 657, Loss: 0.462453, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 658, Loss: 0.481023, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 659, Loss: 0.478336, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 660, Loss: 0.470815, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 661, Loss: 0.487647, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 662, Loss: 0.467386, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 663, Loss: 0.490833, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 664, Loss: 0.464321, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 665, Loss: 0.476323, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 666, Loss: 0.457871, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 667, Loss: 0.464258, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 668, Loss: 0.438951, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 669, Loss: 0.467935, Train: 0.985714, Val: 0.796000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 670, Loss: 0.470037, Train: 0.985714, Val: 0.796000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 671, Loss: 0.461673, Train: 0.985714, Val: 0.796000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 672, Loss: 0.458739, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 673, Loss: 0.484103, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 674, Loss: 0.460893, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 675, Loss: 0.468918, Train: 0.985714, Val: 0.796000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 676, Loss: 0.417245, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 677, Loss: 0.432073, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 678, Loss: 0.426824, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 679, Loss: 0.455428, Train: 0.985714, Val: 0.796000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 680, Loss: 0.450684, Train: 0.985714, Val: 0.798000, Test: 0.821000, Test_acc_best: 0.823000
-Epoch: 681, Loss: 0.462859, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 682, Loss: 0.439604, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 683, Loss: 0.449349, Train: 0.985714, Val: 0.798000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 684, Loss: 0.417851, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 685, Loss: 0.445490, Train: 0.985714, Val: 0.798000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 686, Loss: 0.447212, Train: 0.985714, Val: 0.800000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 687, Loss: 0.431938, Train: 0.985714, Val: 0.800000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 688, Loss: 0.457742, Train: 0.985714, Val: 0.800000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 689, Loss: 0.452459, Train: 0.985714, Val: 0.802000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 690, Loss: 0.484726, Train: 0.985714, Val: 0.802000, Test: 0.822000, Test_acc_best: 0.823000
-Epoch: 691, Loss: 0.456804, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 692, Loss: 0.436138, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 693, Loss: 0.428152, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 694, Loss: 0.446375, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 695, Loss: 0.421574, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 696, Loss: 0.410920, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 697, Loss: 0.432705, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 698, Loss: 0.429643, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 699, Loss: 0.427548, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 700, Loss: 0.437595, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 701, Loss: 0.430581, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 702, Loss: 0.439389, Train: 0.985714, Val: 0.802000, Test: 0.823000, Test_acc_best: 0.823000
-Epoch: 703, Loss: 0.406641, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.824000
-Epoch: 704, Loss: 0.412453, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.824000
-Epoch: 705, Loss: 0.444126, Train: 0.985714, Val: 0.804000, Test: 0.824000, Test_acc_best: 0.824000
-Epoch: 706, Loss: 0.421536, Train: 0.985714, Val: 0.804000, Test: 0.825000, Test_acc_best: 0.825000
-Epoch: 707, Loss: 0.403407, Train: 0.985714, Val: 0.804000, Test: 0.827000, Test_acc_best: 0.827000
-Epoch: 708, Loss: 0.438360, Train: 0.985714, Val: 0.804000, Test: 0.827000, Test_acc_best: 0.827000
-Epoch: 709, Loss: 0.449978, Train: 0.985714, Val: 0.804000, Test: 0.827000, Test_acc_best: 0.827000
-Epoch: 710, Loss: 0.421448, Train: 0.985714, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 711, Loss: 0.431058, Train: 0.985714, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 712, Loss: 0.422436, Train: 0.985714, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 713, Loss: 0.426144, Train: 0.985714, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 714, Loss: 0.404973, Train: 0.985714, Val: 0.804000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 715, Loss: 0.427189, Train: 0.985714, Val: 0.804000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 716, Loss: 0.430056, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 717, Loss: 0.435703, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 718, Loss: 0.392083, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 719, Loss: 0.433813, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 720, Loss: 0.405927, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 721, Loss: 0.437508, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 722, Loss: 0.412952, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 723, Loss: 0.414789, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 724, Loss: 0.391019, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 725, Loss: 0.405112, Train: 0.985714, Val: 0.798000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 726, Loss: 0.419614, Train: 0.985714, Val: 0.798000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 727, Loss: 0.396176, Train: 0.985714, Val: 0.798000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 728, Loss: 0.387652, Train: 0.985714, Val: 0.798000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 729, Loss: 0.423669, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 730, Loss: 0.422783, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 731, Loss: 0.418043, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 732, Loss: 0.418678, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 733, Loss: 0.426340, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 734, Loss: 0.410893, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 735, Loss: 0.422155, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 736, Loss: 0.407995, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 737, Loss: 0.411534, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 738, Loss: 0.406326, Train: 0.985714, Val: 0.798000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 739, Loss: 0.412636, Train: 0.985714, Val: 0.798000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 740, Loss: 0.396212, Train: 0.985714, Val: 0.798000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 741, Loss: 0.438603, Train: 0.985714, Val: 0.798000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 742, Loss: 0.440273, Train: 0.985714, Val: 0.798000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 743, Loss: 0.408720, Train: 0.985714, Val: 0.798000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 744, Loss: 0.415588, Train: 0.985714, Val: 0.798000, Test: 0.827000, Test_acc_best: 0.827000
-Epoch: 745, Loss: 0.447131, Train: 0.985714, Val: 0.798000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 746, Loss: 0.406584, Train: 0.985714, Val: 0.798000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 747, Loss: 0.384136, Train: 0.985714, Val: 0.800000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 748, Loss: 0.401897, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 749, Loss: 0.399174, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 750, Loss: 0.384363, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 751, Loss: 0.421071, Train: 0.985714, Val: 0.800000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 752, Loss: 0.403142, Train: 0.985714, Val: 0.800000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 753, Loss: 0.404244, Train: 0.985714, Val: 0.800000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 754, Loss: 0.384331, Train: 0.985714, Val: 0.800000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 755, Loss: 0.412963, Train: 0.985714, Val: 0.800000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 756, Loss: 0.398679, Train: 0.985714, Val: 0.800000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 757, Loss: 0.381120, Train: 0.985714, Val: 0.798000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 758, Loss: 0.387826, Train: 0.985714, Val: 0.798000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 759, Loss: 0.410966, Train: 0.985714, Val: 0.798000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 760, Loss: 0.377778, Train: 0.985714, Val: 0.798000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 761, Loss: 0.380839, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 762, Loss: 0.386010, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 763, Loss: 0.388521, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 764, Loss: 0.382081, Train: 0.985714, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 765, Loss: 0.391402, Train: 0.985714, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 766, Loss: 0.408673, Train: 0.985714, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 767, Loss: 0.395867, Train: 0.985714, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 768, Loss: 0.368724, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 769, Loss: 0.381184, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 770, Loss: 0.377368, Train: 0.985714, Val: 0.806000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 771, Loss: 0.386687, Train: 0.985714, Val: 0.806000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 772, Loss: 0.368428, Train: 0.985714, Val: 0.806000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 773, Loss: 0.385478, Train: 0.985714, Val: 0.806000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 774, Loss: 0.381160, Train: 0.985714, Val: 0.806000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 775, Loss: 0.384993, Train: 0.985714, Val: 0.806000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 776, Loss: 0.363095, Train: 0.985714, Val: 0.806000, Test: 0.824000, Test_acc_best: 0.827000
-Epoch: 777, Loss: 0.344574, Train: 0.985714, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 778, Loss: 0.390509, Train: 0.985714, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 779, Loss: 0.386848, Train: 0.985714, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 780, Loss: 0.367850, Train: 0.985714, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 781, Loss: 0.399152, Train: 0.985714, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.827000
-Epoch: 782, Loss: 0.381290, Train: 0.985714, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 783, Loss: 0.387435, Train: 0.985714, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 784, Loss: 0.381024, Train: 0.985714, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 785, Loss: 0.377109, Train: 0.985714, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 786, Loss: 0.383355, Train: 0.985714, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 787, Loss: 0.389407, Train: 0.985714, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 788, Loss: 0.379978, Train: 0.985714, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 789, Loss: 0.390678, Train: 0.985714, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.827000
-Epoch: 790, Loss: 0.388922, Train: 0.985714, Val: 0.804000, Test: 0.827000, Test_acc_best: 0.827000
-Epoch: 791, Loss: 0.362998, Train: 0.985714, Val: 0.804000, Test: 0.828000, Test_acc_best: 0.828000
-Epoch: 792, Loss: 0.361740, Train: 0.985714, Val: 0.804000, Test: 0.828000, Test_acc_best: 0.828000
-Epoch: 793, Loss: 0.374786, Train: 0.985714, Val: 0.804000, Test: 0.828000, Test_acc_best: 0.828000
-Epoch: 794, Loss: 0.356310, Train: 0.985714, Val: 0.804000, Test: 0.829000, Test_acc_best: 0.829000
-Epoch: 795, Loss: 0.370310, Train: 0.985714, Val: 0.804000, Test: 0.828000, Test_acc_best: 0.829000
-Epoch: 796, Loss: 0.360679, Train: 0.985714, Val: 0.804000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 797, Loss: 0.387914, Train: 0.985714, Val: 0.804000, Test: 0.828000, Test_acc_best: 0.829000
-Epoch: 798, Loss: 0.369194, Train: 0.985714, Val: 0.804000, Test: 0.828000, Test_acc_best: 0.829000
-Epoch: 799, Loss: 0.379109, Train: 0.985714, Val: 0.804000, Test: 0.828000, Test_acc_best: 0.829000
-Epoch: 800, Loss: 0.367492, Train: 0.985714, Val: 0.804000, Test: 0.828000, Test_acc_best: 0.829000
-Epoch: 801, Loss: 0.374295, Train: 0.985714, Val: 0.804000, Test: 0.828000, Test_acc_best: 0.829000
-Epoch: 802, Loss: 0.377108, Train: 0.985714, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 803, Loss: 0.374821, Train: 0.985714, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 804, Loss: 0.352979, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 805, Loss: 0.352014, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 806, Loss: 0.378632, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 807, Loss: 0.370533, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 808, Loss: 0.362838, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 809, Loss: 0.358993, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 810, Loss: 0.337459, Train: 0.985714, Val: 0.802000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 811, Loss: 0.348850, Train: 0.985714, Val: 0.800000, Test: 0.823000, Test_acc_best: 0.829000
-Epoch: 812, Loss: 0.356479, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 813, Loss: 0.363351, Train: 0.985714, Val: 0.800000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 814, Loss: 0.361513, Train: 0.985714, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 815, Loss: 0.343422, Train: 0.985714, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 816, Loss: 0.341094, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 817, Loss: 0.338311, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 818, Loss: 0.356463, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 819, Loss: 0.347615, Train: 0.992857, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 820, Loss: 0.363400, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 821, Loss: 0.348375, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 822, Loss: 0.350182, Train: 0.992857, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 823, Loss: 0.367950, Train: 0.992857, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 824, Loss: 0.366307, Train: 0.992857, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 825, Loss: 0.356732, Train: 0.992857, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 826, Loss: 0.373608, Train: 0.992857, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 827, Loss: 0.353915, Train: 0.992857, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 828, Loss: 0.375079, Train: 0.992857, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 829, Loss: 0.359074, Train: 0.992857, Val: 0.802000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 830, Loss: 0.346323, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 831, Loss: 0.345495, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 832, Loss: 0.352806, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 833, Loss: 0.348797, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 834, Loss: 0.351850, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 835, Loss: 0.349689, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 836, Loss: 0.359700, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 837, Loss: 0.342367, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 838, Loss: 0.338839, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 839, Loss: 0.357958, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 840, Loss: 0.357876, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 841, Loss: 0.318035, Train: 0.992857, Val: 0.806000, Test: 0.828000, Test_acc_best: 0.829000
-Epoch: 842, Loss: 0.339917, Train: 0.992857, Val: 0.806000, Test: 0.829000, Test_acc_best: 0.829000
-Epoch: 843, Loss: 0.346985, Train: 0.992857, Val: 0.806000, Test: 0.829000, Test_acc_best: 0.829000
-Epoch: 844, Loss: 0.377172, Train: 0.992857, Val: 0.806000, Test: 0.829000, Test_acc_best: 0.829000
-Epoch: 845, Loss: 0.347756, Train: 0.992857, Val: 0.806000, Test: 0.829000, Test_acc_best: 0.829000
-Epoch: 846, Loss: 0.347669, Train: 0.992857, Val: 0.806000, Test: 0.829000, Test_acc_best: 0.829000
-Epoch: 847, Loss: 0.340134, Train: 0.992857, Val: 0.806000, Test: 0.828000, Test_acc_best: 0.829000
-Epoch: 848, Loss: 0.342735, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 849, Loss: 0.339574, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 850, Loss: 0.351791, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 851, Loss: 0.322174, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 852, Loss: 0.365600, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 853, Loss: 0.357882, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 854, Loss: 0.359937, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 855, Loss: 0.320692, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 856, Loss: 0.348609, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 857, Loss: 0.328009, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 858, Loss: 0.348364, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 859, Loss: 0.327353, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 860, Loss: 0.334875, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 861, Loss: 0.341079, Train: 0.992857, Val: 0.808000, Test: 0.828000, Test_acc_best: 0.829000
-Epoch: 862, Loss: 0.338439, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 863, Loss: 0.314310, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 864, Loss: 0.334862, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 865, Loss: 0.357487, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 866, Loss: 0.340601, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 867, Loss: 0.316579, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 868, Loss: 0.321071, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 869, Loss: 0.300876, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 870, Loss: 0.335162, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 871, Loss: 0.322180, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 872, Loss: 0.320422, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 873, Loss: 0.330720, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 874, Loss: 0.328144, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 875, Loss: 0.307117, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 876, Loss: 0.338583, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 877, Loss: 0.320967, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 878, Loss: 0.344432, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 879, Loss: 0.350323, Train: 0.992857, Val: 0.804000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 880, Loss: 0.360258, Train: 0.992857, Val: 0.804000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 881, Loss: 0.327623, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 882, Loss: 0.332128, Train: 0.992857, Val: 0.804000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 883, Loss: 0.340636, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 884, Loss: 0.304920, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 885, Loss: 0.328114, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 886, Loss: 0.331320, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 887, Loss: 0.333592, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 888, Loss: 0.327392, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 889, Loss: 0.300515, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 890, Loss: 0.329825, Train: 0.992857, Val: 0.802000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 891, Loss: 0.317205, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 892, Loss: 0.337288, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 893, Loss: 0.327599, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 894, Loss: 0.322210, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 895, Loss: 0.329802, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 896, Loss: 0.333404, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 897, Loss: 0.350153, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 898, Loss: 0.323084, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 899, Loss: 0.304409, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 900, Loss: 0.313587, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 901, Loss: 0.315420, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 902, Loss: 0.304881, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 903, Loss: 0.318641, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 904, Loss: 0.311141, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 905, Loss: 0.293375, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 906, Loss: 0.311504, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 907, Loss: 0.319255, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 908, Loss: 0.309365, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 909, Loss: 0.300426, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 910, Loss: 0.326861, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 911, Loss: 0.307230, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 912, Loss: 0.324306, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 913, Loss: 0.305452, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 914, Loss: 0.325873, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 915, Loss: 0.295756, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 916, Loss: 0.340553, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 917, Loss: 0.319066, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 918, Loss: 0.296758, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 919, Loss: 0.315792, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 920, Loss: 0.298056, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 921, Loss: 0.334302, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 922, Loss: 0.331623, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 923, Loss: 0.295918, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 924, Loss: 0.306198, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 925, Loss: 0.297732, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 926, Loss: 0.278671, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 927, Loss: 0.301397, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 928, Loss: 0.297557, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 929, Loss: 0.298171, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 930, Loss: 0.301322, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 931, Loss: 0.321404, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 932, Loss: 0.301000, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 933, Loss: 0.301791, Train: 0.992857, Val: 0.808000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 934, Loss: 0.306068, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 935, Loss: 0.330457, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 936, Loss: 0.307400, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 937, Loss: 0.296811, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 938, Loss: 0.318332, Train: 0.992857, Val: 0.808000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 939, Loss: 0.303226, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 940, Loss: 0.292203, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 941, Loss: 0.306612, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 942, Loss: 0.330190, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 943, Loss: 0.307357, Train: 0.992857, Val: 0.806000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 944, Loss: 0.282652, Train: 0.992857, Val: 0.804000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 945, Loss: 0.299433, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 946, Loss: 0.302253, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 947, Loss: 0.288924, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 948, Loss: 0.313863, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 949, Loss: 0.302774, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 950, Loss: 0.312817, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 951, Loss: 0.303443, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 952, Loss: 0.320224, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 953, Loss: 0.292599, Train: 0.992857, Val: 0.804000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 954, Loss: 0.295240, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 955, Loss: 0.292274, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 956, Loss: 0.287795, Train: 0.992857, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 957, Loss: 0.298285, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 958, Loss: 0.286365, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 959, Loss: 0.313720, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 960, Loss: 0.319149, Train: 0.992857, Val: 0.806000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 961, Loss: 0.294378, Train: 0.992857, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 962, Loss: 0.301233, Train: 0.992857, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 963, Loss: 0.316817, Train: 0.992857, Val: 0.806000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 964, Loss: 0.294973, Train: 0.992857, Val: 0.808000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 965, Loss: 0.299104, Train: 0.992857, Val: 0.808000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 966, Loss: 0.282788, Train: 0.992857, Val: 0.810000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 967, Loss: 0.302611, Train: 0.992857, Val: 0.812000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 968, Loss: 0.299498, Train: 0.992857, Val: 0.812000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 969, Loss: 0.297355, Train: 0.992857, Val: 0.812000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 970, Loss: 0.293066, Train: 0.992857, Val: 0.812000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 971, Loss: 0.301349, Train: 0.992857, Val: 0.812000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 972, Loss: 0.296486, Train: 0.992857, Val: 0.812000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 973, Loss: 0.293903, Train: 0.992857, Val: 0.812000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 974, Loss: 0.286517, Train: 0.992857, Val: 0.812000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 975, Loss: 0.286438, Train: 0.992857, Val: 0.810000, Test: 0.827000, Test_acc_best: 0.829000
-Epoch: 976, Loss: 0.270289, Train: 0.992857, Val: 0.812000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 977, Loss: 0.274995, Train: 0.992857, Val: 0.812000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 978, Loss: 0.292957, Train: 0.992857, Val: 0.812000, Test: 0.826000, Test_acc_best: 0.829000
-Epoch: 979, Loss: 0.277929, Train: 0.992857, Val: 0.812000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 980, Loss: 0.270312, Train: 0.992857, Val: 0.812000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 981, Loss: 0.270974, Train: 0.992857, Val: 0.810000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 982, Loss: 0.307712, Train: 0.992857, Val: 0.810000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 983, Loss: 0.262370, Train: 0.992857, Val: 0.810000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 984, Loss: 0.300298, Train: 0.992857, Val: 0.810000, Test: 0.825000, Test_acc_best: 0.829000
-Epoch: 985, Loss: 0.301115, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 986, Loss: 0.275696, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 987, Loss: 0.292970, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 988, Loss: 0.283581, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 989, Loss: 0.292576, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 990, Loss: 0.271889, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 991, Loss: 0.297045, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 992, Loss: 0.266803, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 993, Loss: 0.291603, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
-Epoch: 994, Loss: 0.275297, Train: 0.992857, Val: 0.810000, Test: 0.824000, Test_acc_best: 0.829000
+Epoch: 001, Loss: 1.945934, Train: 0.178571, Val: 0.172000, Test: 0.149000, Val_acc_best: 0.172000, Test_acc_best: 0.149000
+Epoch: 002, Loss: 1.944538, Train: 0.242857, Val: 0.232000, Test: 0.196000, Val_acc_best: 0.232000, Test_acc_best: 0.196000
+Epoch: 003, Loss: 1.941626, Train: 0.371429, Val: 0.356000, Test: 0.334000, Val_acc_best: 0.356000, Test_acc_best: 0.334000
+Epoch: 004, Loss: 1.938037, Train: 0.507143, Val: 0.462000, Test: 0.419000, Val_acc_best: 0.462000, Test_acc_best: 0.419000
+Epoch: 005, Loss: 1.938280, Train: 0.614286, Val: 0.530000, Test: 0.477000, Val_acc_best: 0.530000, Test_acc_best: 0.477000
+Epoch: 006, Loss: 1.938607, Train: 0.750000, Val: 0.556000, Test: 0.539000, Val_acc_best: 0.556000, Test_acc_best: 0.539000
+Epoch: 007, Loss: 1.934935, Train: 0.778571, Val: 0.540000, Test: 0.547000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 008, Loss: 1.934764, Train: 0.778571, Val: 0.528000, Test: 0.522000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 009, Loss: 1.929581, Train: 0.778571, Val: 0.510000, Test: 0.500000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 010, Loss: 1.928356, Train: 0.757143, Val: 0.522000, Test: 0.504000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 011, Loss: 1.929692, Train: 0.764286, Val: 0.530000, Test: 0.511000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 012, Loss: 1.929468, Train: 0.721429, Val: 0.516000, Test: 0.515000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 013, Loss: 1.924893, Train: 0.757143, Val: 0.530000, Test: 0.530000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 014, Loss: 1.922508, Train: 0.742857, Val: 0.518000, Test: 0.527000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 015, Loss: 1.919479, Train: 0.750000, Val: 0.514000, Test: 0.532000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 016, Loss: 1.913797, Train: 0.735714, Val: 0.504000, Test: 0.529000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 017, Loss: 1.915813, Train: 0.757143, Val: 0.510000, Test: 0.546000, Val_acc_best: 0.556000, Test_acc_best: 0.547000
+Epoch: 018, Loss: 1.919298, Train: 0.771429, Val: 0.544000, Test: 0.574000, Val_acc_best: 0.556000, Test_acc_best: 0.574000
+Epoch: 019, Loss: 1.916726, Train: 0.778571, Val: 0.570000, Test: 0.605000, Val_acc_best: 0.570000, Test_acc_best: 0.605000
+Epoch: 020, Loss: 1.909286, Train: 0.814286, Val: 0.594000, Test: 0.626000, Val_acc_best: 0.594000, Test_acc_best: 0.626000
+Epoch: 021, Loss: 1.914816, Train: 0.814286, Val: 0.632000, Test: 0.645000, Val_acc_best: 0.632000, Test_acc_best: 0.645000
+Epoch: 022, Loss: 1.914892, Train: 0.842857, Val: 0.634000, Test: 0.644000, Val_acc_best: 0.634000, Test_acc_best: 0.645000
+Epoch: 023, Loss: 1.902455, Train: 0.850000, Val: 0.648000, Test: 0.659000, Val_acc_best: 0.648000, Test_acc_best: 0.659000
+Epoch: 024, Loss: 1.895919, Train: 0.857143, Val: 0.662000, Test: 0.666000, Val_acc_best: 0.662000, Test_acc_best: 0.666000
+Epoch: 025, Loss: 1.900407, Train: 0.864286, Val: 0.674000, Test: 0.682000, Val_acc_best: 0.674000, Test_acc_best: 0.682000
+Epoch: 026, Loss: 1.895604, Train: 0.885714, Val: 0.680000, Test: 0.694000, Val_acc_best: 0.680000, Test_acc_best: 0.694000
+Epoch: 027, Loss: 1.875574, Train: 0.900000, Val: 0.680000, Test: 0.697000, Val_acc_best: 0.680000, Test_acc_best: 0.697000
+Epoch: 028, Loss: 1.880135, Train: 0.907143, Val: 0.680000, Test: 0.703000, Val_acc_best: 0.680000, Test_acc_best: 0.703000
+Epoch: 029, Loss: 1.890106, Train: 0.907143, Val: 0.692000, Test: 0.718000, Val_acc_best: 0.692000, Test_acc_best: 0.718000
+Epoch: 030, Loss: 1.874758, Train: 0.935714, Val: 0.702000, Test: 0.722000, Val_acc_best: 0.702000, Test_acc_best: 0.722000
+Epoch: 031, Loss: 1.877445, Train: 0.935714, Val: 0.714000, Test: 0.741000, Val_acc_best: 0.714000, Test_acc_best: 0.741000
+Epoch: 032, Loss: 1.870926, Train: 0.935714, Val: 0.710000, Test: 0.750000, Val_acc_best: 0.714000, Test_acc_best: 0.750000
+Epoch: 033, Loss: 1.865990, Train: 0.935714, Val: 0.714000, Test: 0.751000, Val_acc_best: 0.714000, Test_acc_best: 0.751000
+Epoch: 034, Loss: 1.864180, Train: 0.935714, Val: 0.716000, Test: 0.749000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 035, Loss: 1.866749, Train: 0.942857, Val: 0.710000, Test: 0.737000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 036, Loss: 1.875219, Train: 0.942857, Val: 0.716000, Test: 0.732000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 037, Loss: 1.859507, Train: 0.935714, Val: 0.706000, Test: 0.736000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 038, Loss: 1.853205, Train: 0.942857, Val: 0.702000, Test: 0.736000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 039, Loss: 1.871845, Train: 0.935714, Val: 0.698000, Test: 0.731000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 040, Loss: 1.874889, Train: 0.928571, Val: 0.688000, Test: 0.728000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 041, Loss: 1.851428, Train: 0.935714, Val: 0.684000, Test: 0.729000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 042, Loss: 1.858544, Train: 0.921429, Val: 0.698000, Test: 0.726000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 043, Loss: 1.841951, Train: 0.914286, Val: 0.692000, Test: 0.730000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 044, Loss: 1.847469, Train: 0.928571, Val: 0.708000, Test: 0.728000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 045, Loss: 1.831649, Train: 0.928571, Val: 0.716000, Test: 0.732000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 046, Loss: 1.841375, Train: 0.921429, Val: 0.710000, Test: 0.734000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 047, Loss: 1.834499, Train: 0.928571, Val: 0.712000, Test: 0.736000, Val_acc_best: 0.716000, Test_acc_best: 0.751000
+Epoch: 048, Loss: 1.829564, Train: 0.921429, Val: 0.718000, Test: 0.741000, Val_acc_best: 0.718000, Test_acc_best: 0.751000
+Epoch: 049, Loss: 1.822072, Train: 0.921429, Val: 0.720000, Test: 0.741000, Val_acc_best: 0.720000, Test_acc_best: 0.751000
+Epoch: 050, Loss: 1.830011, Train: 0.907143, Val: 0.722000, Test: 0.743000, Val_acc_best: 0.722000, Test_acc_best: 0.751000
+Epoch: 051, Loss: 1.835631, Train: 0.907143, Val: 0.722000, Test: 0.741000, Val_acc_best: 0.722000, Test_acc_best: 0.751000
+Epoch: 052, Loss: 1.825088, Train: 0.914286, Val: 0.726000, Test: 0.747000, Val_acc_best: 0.726000, Test_acc_best: 0.751000
+Epoch: 053, Loss: 1.816933, Train: 0.907143, Val: 0.726000, Test: 0.749000, Val_acc_best: 0.726000, Test_acc_best: 0.751000
+Epoch: 054, Loss: 1.811132, Train: 0.914286, Val: 0.722000, Test: 0.747000, Val_acc_best: 0.726000, Test_acc_best: 0.751000
+Epoch: 055, Loss: 1.811042, Train: 0.914286, Val: 0.724000, Test: 0.745000, Val_acc_best: 0.726000, Test_acc_best: 0.751000
+Epoch: 056, Loss: 1.810795, Train: 0.914286, Val: 0.728000, Test: 0.743000, Val_acc_best: 0.728000, Test_acc_best: 0.751000
+Epoch: 057, Loss: 1.824828, Train: 0.921429, Val: 0.728000, Test: 0.746000, Val_acc_best: 0.728000, Test_acc_best: 0.751000
+Epoch: 058, Loss: 1.800701, Train: 0.921429, Val: 0.730000, Test: 0.752000, Val_acc_best: 0.730000, Test_acc_best: 0.752000
+Epoch: 059, Loss: 1.810706, Train: 0.914286, Val: 0.736000, Test: 0.753000, Val_acc_best: 0.736000, Test_acc_best: 0.753000
+Epoch: 060, Loss: 1.821430, Train: 0.921429, Val: 0.736000, Test: 0.753000, Val_acc_best: 0.736000, Test_acc_best: 0.753000
+Epoch: 061, Loss: 1.792073, Train: 0.921429, Val: 0.736000, Test: 0.754000, Val_acc_best: 0.736000, Test_acc_best: 0.754000
+Epoch: 062, Loss: 1.795166, Train: 0.921429, Val: 0.736000, Test: 0.756000, Val_acc_best: 0.736000, Test_acc_best: 0.756000
+Epoch: 063, Loss: 1.801293, Train: 0.928571, Val: 0.734000, Test: 0.760000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 064, Loss: 1.792356, Train: 0.935714, Val: 0.734000, Test: 0.754000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 065, Loss: 1.780522, Train: 0.935714, Val: 0.734000, Test: 0.749000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 066, Loss: 1.769896, Train: 0.942857, Val: 0.730000, Test: 0.744000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 067, Loss: 1.799246, Train: 0.950000, Val: 0.724000, Test: 0.740000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 068, Loss: 1.789340, Train: 0.942857, Val: 0.716000, Test: 0.737000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 069, Loss: 1.722833, Train: 0.935714, Val: 0.706000, Test: 0.734000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 070, Loss: 1.784419, Train: 0.935714, Val: 0.706000, Test: 0.738000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 071, Loss: 1.771075, Train: 0.942857, Val: 0.706000, Test: 0.735000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 072, Loss: 1.759384, Train: 0.942857, Val: 0.704000, Test: 0.739000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 073, Loss: 1.763503, Train: 0.942857, Val: 0.710000, Test: 0.738000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 074, Loss: 1.750900, Train: 0.950000, Val: 0.714000, Test: 0.741000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 075, Loss: 1.740655, Train: 0.950000, Val: 0.720000, Test: 0.745000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 076, Loss: 1.731864, Train: 0.950000, Val: 0.720000, Test: 0.749000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 077, Loss: 1.742356, Train: 0.950000, Val: 0.718000, Test: 0.739000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 078, Loss: 1.749291, Train: 0.950000, Val: 0.718000, Test: 0.742000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 079, Loss: 1.741164, Train: 0.935714, Val: 0.714000, Test: 0.739000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 080, Loss: 1.749698, Train: 0.928571, Val: 0.716000, Test: 0.741000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 081, Loss: 1.707861, Train: 0.935714, Val: 0.718000, Test: 0.741000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 082, Loss: 1.719328, Train: 0.942857, Val: 0.720000, Test: 0.747000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 083, Loss: 1.741354, Train: 0.942857, Val: 0.726000, Test: 0.752000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 084, Loss: 1.739278, Train: 0.935714, Val: 0.726000, Test: 0.756000, Val_acc_best: 0.736000, Test_acc_best: 0.760000
+Epoch: 085, Loss: 1.735821, Train: 0.935714, Val: 0.734000, Test: 0.762000, Val_acc_best: 0.736000, Test_acc_best: 0.762000
+Epoch: 086, Loss: 1.722458, Train: 0.935714, Val: 0.744000, Test: 0.762000, Val_acc_best: 0.744000, Test_acc_best: 0.762000
+Epoch: 087, Loss: 1.706832, Train: 0.935714, Val: 0.740000, Test: 0.768000, Val_acc_best: 0.744000, Test_acc_best: 0.768000
+Epoch: 088, Loss: 1.690433, Train: 0.935714, Val: 0.736000, Test: 0.774000, Val_acc_best: 0.744000, Test_acc_best: 0.774000
+Epoch: 089, Loss: 1.718334, Train: 0.935714, Val: 0.736000, Test: 0.774000, Val_acc_best: 0.744000, Test_acc_best: 0.774000
+Epoch: 090, Loss: 1.675779, Train: 0.942857, Val: 0.734000, Test: 0.775000, Val_acc_best: 0.744000, Test_acc_best: 0.775000
+Epoch: 091, Loss: 1.695709, Train: 0.942857, Val: 0.734000, Test: 0.774000, Val_acc_best: 0.744000, Test_acc_best: 0.775000
+Epoch: 092, Loss: 1.733883, Train: 0.935714, Val: 0.742000, Test: 0.775000, Val_acc_best: 0.744000, Test_acc_best: 0.775000
+Epoch: 093, Loss: 1.677884, Train: 0.935714, Val: 0.742000, Test: 0.773000, Val_acc_best: 0.744000, Test_acc_best: 0.775000
+Epoch: 094, Loss: 1.709195, Train: 0.935714, Val: 0.742000, Test: 0.775000, Val_acc_best: 0.744000, Test_acc_best: 0.775000
+Epoch: 095, Loss: 1.678901, Train: 0.935714, Val: 0.736000, Test: 0.776000, Val_acc_best: 0.744000, Test_acc_best: 0.776000
+Epoch: 096, Loss: 1.719408, Train: 0.942857, Val: 0.736000, Test: 0.774000, Val_acc_best: 0.744000, Test_acc_best: 0.776000
+Epoch: 097, Loss: 1.703855, Train: 0.942857, Val: 0.742000, Test: 0.770000, Val_acc_best: 0.744000, Test_acc_best: 0.776000
+Epoch: 098, Loss: 1.688217, Train: 0.942857, Val: 0.742000, Test: 0.771000, Val_acc_best: 0.744000, Test_acc_best: 0.776000
+Epoch: 099, Loss: 1.680948, Train: 0.935714, Val: 0.744000, Test: 0.770000, Val_acc_best: 0.744000, Test_acc_best: 0.776000
+Epoch: 100, Loss: 1.667732, Train: 0.935714, Val: 0.746000, Test: 0.771000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 101, Loss: 1.681034, Train: 0.942857, Val: 0.742000, Test: 0.768000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 102, Loss: 1.666880, Train: 0.950000, Val: 0.746000, Test: 0.766000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 103, Loss: 1.604983, Train: 0.950000, Val: 0.740000, Test: 0.768000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 104, Loss: 1.653921, Train: 0.942857, Val: 0.740000, Test: 0.768000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 105, Loss: 1.686252, Train: 0.942857, Val: 0.736000, Test: 0.764000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 106, Loss: 1.656475, Train: 0.942857, Val: 0.738000, Test: 0.763000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 107, Loss: 1.640434, Train: 0.942857, Val: 0.738000, Test: 0.766000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 108, Loss: 1.650559, Train: 0.957143, Val: 0.742000, Test: 0.768000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 109, Loss: 1.668430, Train: 0.950000, Val: 0.744000, Test: 0.768000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 110, Loss: 1.629166, Train: 0.950000, Val: 0.742000, Test: 0.771000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 111, Loss: 1.654663, Train: 0.950000, Val: 0.744000, Test: 0.774000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 112, Loss: 1.655434, Train: 0.950000, Val: 0.746000, Test: 0.774000, Val_acc_best: 0.746000, Test_acc_best: 0.776000
+Epoch: 113, Loss: 1.632541, Train: 0.950000, Val: 0.748000, Test: 0.776000, Val_acc_best: 0.748000, Test_acc_best: 0.776000
+Epoch: 114, Loss: 1.638888, Train: 0.950000, Val: 0.746000, Test: 0.779000, Val_acc_best: 0.748000, Test_acc_best: 0.779000
+Epoch: 115, Loss: 1.675075, Train: 0.950000, Val: 0.748000, Test: 0.779000, Val_acc_best: 0.748000, Test_acc_best: 0.779000
+Epoch: 116, Loss: 1.618671, Train: 0.950000, Val: 0.754000, Test: 0.778000, Val_acc_best: 0.754000, Test_acc_best: 0.779000
+Epoch: 117, Loss: 1.635261, Train: 0.957143, Val: 0.754000, Test: 0.779000, Val_acc_best: 0.754000, Test_acc_best: 0.779000
+Epoch: 118, Loss: 1.618786, Train: 0.957143, Val: 0.754000, Test: 0.778000, Val_acc_best: 0.754000, Test_acc_best: 0.779000
+Epoch: 119, Loss: 1.568593, Train: 0.957143, Val: 0.754000, Test: 0.778000, Val_acc_best: 0.754000, Test_acc_best: 0.779000
+Epoch: 120, Loss: 1.637496, Train: 0.950000, Val: 0.754000, Test: 0.778000, Val_acc_best: 0.754000, Test_acc_best: 0.779000
+Epoch: 121, Loss: 1.660082, Train: 0.957143, Val: 0.752000, Test: 0.780000, Val_acc_best: 0.754000, Test_acc_best: 0.780000
+Epoch: 122, Loss: 1.653023, Train: 0.957143, Val: 0.754000, Test: 0.780000, Val_acc_best: 0.754000, Test_acc_best: 0.780000
+Epoch: 123, Loss: 1.636653, Train: 0.957143, Val: 0.754000, Test: 0.780000, Val_acc_best: 0.754000, Test_acc_best: 0.780000
+Epoch: 124, Loss: 1.579335, Train: 0.950000, Val: 0.750000, Test: 0.781000, Val_acc_best: 0.754000, Test_acc_best: 0.781000
+Epoch: 125, Loss: 1.608760, Train: 0.950000, Val: 0.754000, Test: 0.781000, Val_acc_best: 0.754000, Test_acc_best: 0.781000
+Epoch: 126, Loss: 1.582665, Train: 0.942857, Val: 0.756000, Test: 0.783000, Val_acc_best: 0.756000, Test_acc_best: 0.783000
+Epoch: 127, Loss: 1.588089, Train: 0.942857, Val: 0.754000, Test: 0.785000, Val_acc_best: 0.756000, Test_acc_best: 0.785000
+Epoch: 128, Loss: 1.573903, Train: 0.942857, Val: 0.752000, Test: 0.785000, Val_acc_best: 0.756000, Test_acc_best: 0.785000
+Epoch: 129, Loss: 1.579144, Train: 0.942857, Val: 0.752000, Test: 0.786000, Val_acc_best: 0.756000, Test_acc_best: 0.786000
+Epoch: 130, Loss: 1.559750, Train: 0.942857, Val: 0.752000, Test: 0.786000, Val_acc_best: 0.756000, Test_acc_best: 0.786000
+Epoch: 131, Loss: 1.563720, Train: 0.942857, Val: 0.754000, Test: 0.786000, Val_acc_best: 0.756000, Test_acc_best: 0.786000
+Epoch: 132, Loss: 1.577533, Train: 0.950000, Val: 0.752000, Test: 0.786000, Val_acc_best: 0.756000, Test_acc_best: 0.786000
+Epoch: 133, Loss: 1.584307, Train: 0.950000, Val: 0.754000, Test: 0.785000, Val_acc_best: 0.756000, Test_acc_best: 0.786000
+Epoch: 134, Loss: 1.541993, Train: 0.950000, Val: 0.756000, Test: 0.786000, Val_acc_best: 0.756000, Test_acc_best: 0.786000
+Epoch: 135, Loss: 1.544946, Train: 0.950000, Val: 0.754000, Test: 0.786000, Val_acc_best: 0.756000, Test_acc_best: 0.786000
+Epoch: 136, Loss: 1.524364, Train: 0.957143, Val: 0.758000, Test: 0.784000, Val_acc_best: 0.758000, Test_acc_best: 0.786000
+Epoch: 137, Loss: 1.544116, Train: 0.957143, Val: 0.760000, Test: 0.785000, Val_acc_best: 0.760000, Test_acc_best: 0.786000
+Epoch: 138, Loss: 1.614723, Train: 0.957143, Val: 0.756000, Test: 0.786000, Val_acc_best: 0.760000, Test_acc_best: 0.786000
+Epoch: 139, Loss: 1.567841, Train: 0.964286, Val: 0.758000, Test: 0.789000, Val_acc_best: 0.760000, Test_acc_best: 0.789000
+Epoch: 140, Loss: 1.543941, Train: 0.957143, Val: 0.756000, Test: 0.787000, Val_acc_best: 0.760000, Test_acc_best: 0.789000
+Epoch: 141, Loss: 1.528314, Train: 0.957143, Val: 0.754000, Test: 0.784000, Val_acc_best: 0.760000, Test_acc_best: 0.789000
+Epoch: 142, Loss: 1.555795, Train: 0.957143, Val: 0.754000, Test: 0.784000, Val_acc_best: 0.760000, Test_acc_best: 0.789000
+Epoch: 143, Loss: 1.517157, Train: 0.957143, Val: 0.756000, Test: 0.783000, Val_acc_best: 0.760000, Test_acc_best: 0.789000
+Epoch: 144, Loss: 1.609706, Train: 0.957143, Val: 0.756000, Test: 0.784000, Val_acc_best: 0.760000, Test_acc_best: 0.789000
+Epoch: 145, Loss: 1.541811, Train: 0.957143, Val: 0.758000, Test: 0.781000, Val_acc_best: 0.760000, Test_acc_best: 0.789000
+Epoch: 146, Loss: 1.532857, Train: 0.957143, Val: 0.760000, Test: 0.779000, Val_acc_best: 0.760000, Test_acc_best: 0.789000
+Epoch: 147, Loss: 1.512944, Train: 0.957143, Val: 0.758000, Test: 0.776000, Val_acc_best: 0.760000, Test_acc_best: 0.789000
+Epoch: 148, Loss: 1.512692, Train: 0.964286, Val: 0.762000, Test: 0.777000, Val_acc_best: 0.762000, Test_acc_best: 0.789000
+Epoch: 149, Loss: 1.561735, Train: 0.964286, Val: 0.758000, Test: 0.775000, Val_acc_best: 0.762000, Test_acc_best: 0.789000
+Epoch: 150, Loss: 1.476938, Train: 0.964286, Val: 0.758000, Test: 0.778000, Val_acc_best: 0.762000, Test_acc_best: 0.789000
+Epoch: 151, Loss: 1.573130, Train: 0.964286, Val: 0.758000, Test: 0.778000, Val_acc_best: 0.762000, Test_acc_best: 0.789000
+Epoch: 152, Loss: 1.491565, Train: 0.964286, Val: 0.754000, Test: 0.779000, Val_acc_best: 0.762000, Test_acc_best: 0.789000
+Epoch: 153, Loss: 1.576320, Train: 0.964286, Val: 0.758000, Test: 0.779000, Val_acc_best: 0.762000, Test_acc_best: 0.789000
+Epoch: 154, Loss: 1.524495, Train: 0.964286, Val: 0.756000, Test: 0.777000, Val_acc_best: 0.762000, Test_acc_best: 0.789000
+Epoch: 155, Loss: 1.546955, Train: 0.964286, Val: 0.758000, Test: 0.778000, Val_acc_best: 0.762000, Test_acc_best: 0.789000
+Epoch: 156, Loss: 1.528298, Train: 0.964286, Val: 0.760000, Test: 0.779000, Val_acc_best: 0.762000, Test_acc_best: 0.789000
+Epoch: 157, Loss: 1.589803, Train: 0.964286, Val: 0.764000, Test: 0.786000, Val_acc_best: 0.764000, Test_acc_best: 0.789000
+Epoch: 158, Loss: 1.484037, Train: 0.964286, Val: 0.768000, Test: 0.788000, Val_acc_best: 0.768000, Test_acc_best: 0.789000
+Epoch: 159, Loss: 1.540223, Train: 0.957143, Val: 0.766000, Test: 0.787000, Val_acc_best: 0.768000, Test_acc_best: 0.789000
+Epoch: 160, Loss: 1.516255, Train: 0.957143, Val: 0.766000, Test: 0.789000, Val_acc_best: 0.768000, Test_acc_best: 0.789000
+Epoch: 161, Loss: 1.503050, Train: 0.957143, Val: 0.764000, Test: 0.790000, Val_acc_best: 0.768000, Test_acc_best: 0.790000
+Epoch: 162, Loss: 1.502740, Train: 0.957143, Val: 0.758000, Test: 0.792000, Val_acc_best: 0.768000, Test_acc_best: 0.792000
+Epoch: 163, Loss: 1.524483, Train: 0.957143, Val: 0.758000, Test: 0.789000, Val_acc_best: 0.768000, Test_acc_best: 0.792000
+Epoch: 164, Loss: 1.546778, Train: 0.957143, Val: 0.760000, Test: 0.793000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 165, Loss: 1.516423, Train: 0.950000, Val: 0.756000, Test: 0.792000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 166, Loss: 1.489015, Train: 0.950000, Val: 0.754000, Test: 0.792000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 167, Loss: 1.433692, Train: 0.957143, Val: 0.754000, Test: 0.790000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 168, Loss: 1.463846, Train: 0.957143, Val: 0.756000, Test: 0.790000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 169, Loss: 1.540999, Train: 0.957143, Val: 0.756000, Test: 0.790000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 170, Loss: 1.473585, Train: 0.957143, Val: 0.758000, Test: 0.792000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 171, Loss: 1.512637, Train: 0.957143, Val: 0.764000, Test: 0.792000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 172, Loss: 1.503029, Train: 0.964286, Val: 0.764000, Test: 0.791000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 173, Loss: 1.492110, Train: 0.964286, Val: 0.760000, Test: 0.791000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 174, Loss: 1.434559, Train: 0.964286, Val: 0.764000, Test: 0.791000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 175, Loss: 1.454917, Train: 0.978571, Val: 0.764000, Test: 0.789000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 176, Loss: 1.508628, Train: 0.978571, Val: 0.764000, Test: 0.789000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 177, Loss: 1.442405, Train: 0.978571, Val: 0.764000, Test: 0.788000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 178, Loss: 1.421781, Train: 0.978571, Val: 0.760000, Test: 0.788000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 179, Loss: 1.397488, Train: 0.978571, Val: 0.762000, Test: 0.788000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 180, Loss: 1.386485, Train: 0.978571, Val: 0.762000, Test: 0.789000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 181, Loss: 1.427826, Train: 0.978571, Val: 0.760000, Test: 0.793000, Val_acc_best: 0.768000, Test_acc_best: 0.793000
+Epoch: 182, Loss: 1.440405, Train: 0.971429, Val: 0.764000, Test: 0.794000, Val_acc_best: 0.768000, Test_acc_best: 0.794000
+Epoch: 183, Loss: 1.437533, Train: 0.971429, Val: 0.760000, Test: 0.796000, Val_acc_best: 0.768000, Test_acc_best: 0.796000
+Epoch: 184, Loss: 1.477105, Train: 0.971429, Val: 0.762000, Test: 0.796000, Val_acc_best: 0.768000, Test_acc_best: 0.796000
+Epoch: 185, Loss: 1.507721, Train: 0.971429, Val: 0.766000, Test: 0.800000, Val_acc_best: 0.768000, Test_acc_best: 0.800000
+Epoch: 186, Loss: 1.437523, Train: 0.971429, Val: 0.768000, Test: 0.800000, Val_acc_best: 0.768000, Test_acc_best: 0.800000
+Epoch: 187, Loss: 1.498800, Train: 0.964286, Val: 0.770000, Test: 0.798000, Val_acc_best: 0.770000, Test_acc_best: 0.800000
+Epoch: 188, Loss: 1.466515, Train: 0.964286, Val: 0.770000, Test: 0.796000, Val_acc_best: 0.770000, Test_acc_best: 0.800000
+Epoch: 189, Loss: 1.484776, Train: 0.964286, Val: 0.766000, Test: 0.797000, Val_acc_best: 0.770000, Test_acc_best: 0.800000
+Epoch: 190, Loss: 1.422489, Train: 0.964286, Val: 0.768000, Test: 0.798000, Val_acc_best: 0.770000, Test_acc_best: 0.800000
+Epoch: 191, Loss: 1.423363, Train: 0.964286, Val: 0.768000, Test: 0.800000, Val_acc_best: 0.770000, Test_acc_best: 0.800000
+Epoch: 192, Loss: 1.429987, Train: 0.964286, Val: 0.772000, Test: 0.801000, Val_acc_best: 0.772000, Test_acc_best: 0.801000
+Epoch: 193, Loss: 1.437149, Train: 0.964286, Val: 0.772000, Test: 0.797000, Val_acc_best: 0.772000, Test_acc_best: 0.801000
+Epoch: 194, Loss: 1.419182, Train: 0.964286, Val: 0.778000, Test: 0.797000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 195, Loss: 1.430323, Train: 0.971429, Val: 0.778000, Test: 0.797000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 196, Loss: 1.415719, Train: 0.971429, Val: 0.772000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 197, Loss: 1.397257, Train: 0.971429, Val: 0.770000, Test: 0.795000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 198, Loss: 1.412581, Train: 0.971429, Val: 0.764000, Test: 0.795000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 199, Loss: 1.451608, Train: 0.971429, Val: 0.758000, Test: 0.794000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 200, Loss: 1.421622, Train: 0.964286, Val: 0.758000, Test: 0.795000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 201, Loss: 1.385758, Train: 0.964286, Val: 0.758000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 202, Loss: 1.415583, Train: 0.964286, Val: 0.758000, Test: 0.793000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 203, Loss: 1.463428, Train: 0.957143, Val: 0.750000, Test: 0.792000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 204, Loss: 1.446905, Train: 0.957143, Val: 0.750000, Test: 0.794000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 205, Loss: 1.395602, Train: 0.957143, Val: 0.750000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 206, Loss: 1.480347, Train: 0.957143, Val: 0.750000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 207, Loss: 1.427590, Train: 0.957143, Val: 0.750000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 208, Loss: 1.432763, Train: 0.957143, Val: 0.750000, Test: 0.794000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 209, Loss: 1.414141, Train: 0.957143, Val: 0.750000, Test: 0.794000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 210, Loss: 1.370798, Train: 0.957143, Val: 0.752000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 211, Loss: 1.458629, Train: 0.957143, Val: 0.756000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 212, Loss: 1.410400, Train: 0.957143, Val: 0.762000, Test: 0.798000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 213, Loss: 1.427341, Train: 0.971429, Val: 0.770000, Test: 0.798000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 214, Loss: 1.387576, Train: 0.971429, Val: 0.770000, Test: 0.799000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 215, Loss: 1.412455, Train: 0.971429, Val: 0.770000, Test: 0.794000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 216, Loss: 1.354421, Train: 0.971429, Val: 0.770000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 217, Loss: 1.422895, Train: 0.971429, Val: 0.770000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 218, Loss: 1.412240, Train: 0.971429, Val: 0.770000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 219, Loss: 1.348183, Train: 0.971429, Val: 0.770000, Test: 0.797000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 220, Loss: 1.313961, Train: 0.971429, Val: 0.772000, Test: 0.798000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 221, Loss: 1.468213, Train: 0.971429, Val: 0.774000, Test: 0.798000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 222, Loss: 1.356744, Train: 0.971429, Val: 0.770000, Test: 0.798000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 223, Loss: 1.321874, Train: 0.971429, Val: 0.770000, Test: 0.800000, Val_acc_best: 0.778000, Test_acc_best: 0.801000
+Epoch: 224, Loss: 1.389313, Train: 0.971429, Val: 0.768000, Test: 0.802000, Val_acc_best: 0.778000, Test_acc_best: 0.802000
+Epoch: 225, Loss: 1.404230, Train: 0.971429, Val: 0.768000, Test: 0.801000, Val_acc_best: 0.778000, Test_acc_best: 0.802000
+Epoch: 226, Loss: 1.354184, Train: 0.971429, Val: 0.770000, Test: 0.803000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 227, Loss: 1.361526, Train: 0.971429, Val: 0.770000, Test: 0.802000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 228, Loss: 1.374128, Train: 0.971429, Val: 0.772000, Test: 0.801000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 229, Loss: 1.364476, Train: 0.971429, Val: 0.770000, Test: 0.802000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 230, Loss: 1.349498, Train: 0.971429, Val: 0.768000, Test: 0.800000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 231, Loss: 1.374300, Train: 0.971429, Val: 0.766000, Test: 0.797000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 232, Loss: 1.331970, Train: 0.971429, Val: 0.766000, Test: 0.797000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 233, Loss: 1.366371, Train: 0.971429, Val: 0.764000, Test: 0.797000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 234, Loss: 1.317819, Train: 0.971429, Val: 0.762000, Test: 0.799000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 235, Loss: 1.348633, Train: 0.971429, Val: 0.766000, Test: 0.801000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 236, Loss: 1.367332, Train: 0.964286, Val: 0.766000, Test: 0.800000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 237, Loss: 1.303748, Train: 0.964286, Val: 0.764000, Test: 0.798000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 238, Loss: 1.394442, Train: 0.971429, Val: 0.762000, Test: 0.800000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 239, Loss: 1.352273, Train: 0.971429, Val: 0.766000, Test: 0.799000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 240, Loss: 1.400502, Train: 0.971429, Val: 0.770000, Test: 0.795000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 241, Loss: 1.400340, Train: 0.971429, Val: 0.776000, Test: 0.796000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 242, Loss: 1.307386, Train: 0.971429, Val: 0.778000, Test: 0.797000, Val_acc_best: 0.778000, Test_acc_best: 0.803000
+Epoch: 243, Loss: 1.344914, Train: 0.971429, Val: 0.780000, Test: 0.797000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 244, Loss: 1.358198, Train: 0.971429, Val: 0.776000, Test: 0.793000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 245, Loss: 1.325436, Train: 0.971429, Val: 0.780000, Test: 0.791000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 246, Loss: 1.363177, Train: 0.978571, Val: 0.780000, Test: 0.795000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 247, Loss: 1.252532, Train: 0.978571, Val: 0.780000, Test: 0.796000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 248, Loss: 1.312830, Train: 0.971429, Val: 0.780000, Test: 0.793000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 249, Loss: 1.335587, Train: 0.971429, Val: 0.776000, Test: 0.797000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 250, Loss: 1.382304, Train: 0.971429, Val: 0.776000, Test: 0.798000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 251, Loss: 1.308712, Train: 0.971429, Val: 0.774000, Test: 0.800000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 252, Loss: 1.278461, Train: 0.971429, Val: 0.774000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 253, Loss: 1.340983, Train: 0.971429, Val: 0.772000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 254, Loss: 1.340141, Train: 0.971429, Val: 0.774000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 255, Loss: 1.368783, Train: 0.971429, Val: 0.770000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 256, Loss: 1.330805, Train: 0.971429, Val: 0.764000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 257, Loss: 1.335736, Train: 0.964286, Val: 0.768000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.803000
+Epoch: 258, Loss: 1.329091, Train: 0.964286, Val: 0.774000, Test: 0.804000, Val_acc_best: 0.780000, Test_acc_best: 0.804000
+Epoch: 259, Loss: 1.226434, Train: 0.964286, Val: 0.776000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.804000
+Epoch: 260, Loss: 1.331732, Train: 0.964286, Val: 0.774000, Test: 0.807000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 261, Loss: 1.317958, Train: 0.964286, Val: 0.774000, Test: 0.806000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 262, Loss: 1.276280, Train: 0.971429, Val: 0.776000, Test: 0.804000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 263, Loss: 1.344405, Train: 0.971429, Val: 0.776000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 264, Loss: 1.283626, Train: 0.971429, Val: 0.778000, Test: 0.800000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 265, Loss: 1.299138, Train: 0.971429, Val: 0.780000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 266, Loss: 1.279994, Train: 0.978571, Val: 0.776000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 267, Loss: 1.358474, Train: 0.985714, Val: 0.774000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 268, Loss: 1.364564, Train: 0.985714, Val: 0.778000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 269, Loss: 1.366552, Train: 0.985714, Val: 0.778000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 270, Loss: 1.353866, Train: 0.978571, Val: 0.776000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 271, Loss: 1.326586, Train: 0.978571, Val: 0.776000, Test: 0.800000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 272, Loss: 1.302271, Train: 0.971429, Val: 0.774000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 273, Loss: 1.366896, Train: 0.971429, Val: 0.772000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 274, Loss: 1.306430, Train: 0.971429, Val: 0.770000, Test: 0.800000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 275, Loss: 1.257007, Train: 0.971429, Val: 0.770000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 276, Loss: 1.303742, Train: 0.971429, Val: 0.770000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 277, Loss: 1.203763, Train: 0.971429, Val: 0.774000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 278, Loss: 1.238252, Train: 0.971429, Val: 0.776000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 279, Loss: 1.296365, Train: 0.971429, Val: 0.776000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 280, Loss: 1.271158, Train: 0.978571, Val: 0.776000, Test: 0.798000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 281, Loss: 1.301696, Train: 0.978571, Val: 0.776000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 282, Loss: 1.250699, Train: 0.978571, Val: 0.776000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 283, Loss: 1.346805, Train: 0.978571, Val: 0.774000, Test: 0.797000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 284, Loss: 1.339250, Train: 0.978571, Val: 0.774000, Test: 0.800000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 285, Loss: 1.252213, Train: 0.978571, Val: 0.778000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 286, Loss: 1.320217, Train: 0.978571, Val: 0.776000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 287, Loss: 1.352787, Train: 0.985714, Val: 0.776000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 288, Loss: 1.293917, Train: 0.985714, Val: 0.778000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 289, Loss: 1.233431, Train: 0.985714, Val: 0.778000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 290, Loss: 1.304004, Train: 0.978571, Val: 0.778000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 291, Loss: 1.355631, Train: 0.978571, Val: 0.780000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 292, Loss: 1.325635, Train: 0.978571, Val: 0.780000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 293, Loss: 1.319945, Train: 0.978571, Val: 0.780000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 294, Loss: 1.293206, Train: 0.978571, Val: 0.780000, Test: 0.800000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 295, Loss: 1.241152, Train: 0.978571, Val: 0.780000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 296, Loss: 1.240105, Train: 0.978571, Val: 0.778000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 297, Loss: 1.304954, Train: 0.978571, Val: 0.776000, Test: 0.799000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 298, Loss: 1.254356, Train: 0.985714, Val: 0.776000, Test: 0.797000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 299, Loss: 1.275248, Train: 0.985714, Val: 0.772000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 300, Loss: 1.264160, Train: 0.985714, Val: 0.774000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 301, Loss: 1.245213, Train: 0.985714, Val: 0.774000, Test: 0.800000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 302, Loss: 1.230720, Train: 0.985714, Val: 0.772000, Test: 0.800000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 303, Loss: 1.239779, Train: 0.985714, Val: 0.770000, Test: 0.800000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 304, Loss: 1.249541, Train: 0.978571, Val: 0.772000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 305, Loss: 1.287882, Train: 0.978571, Val: 0.772000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 306, Loss: 1.234317, Train: 0.971429, Val: 0.772000, Test: 0.804000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 307, Loss: 1.296626, Train: 0.971429, Val: 0.772000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 308, Loss: 1.238775, Train: 0.978571, Val: 0.772000, Test: 0.801000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 309, Loss: 1.159279, Train: 0.978571, Val: 0.772000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 310, Loss: 1.193671, Train: 0.978571, Val: 0.778000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 311, Loss: 1.208324, Train: 0.978571, Val: 0.778000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 312, Loss: 1.278485, Train: 0.978571, Val: 0.780000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 313, Loss: 1.293442, Train: 0.978571, Val: 0.780000, Test: 0.803000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 314, Loss: 1.195103, Train: 0.978571, Val: 0.780000, Test: 0.804000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 315, Loss: 1.220652, Train: 0.978571, Val: 0.780000, Test: 0.802000, Val_acc_best: 0.780000, Test_acc_best: 0.807000
+Epoch: 316, Loss: 1.281786, Train: 0.985714, Val: 0.782000, Test: 0.803000, Val_acc_best: 0.782000, Test_acc_best: 0.807000
+Epoch: 317, Loss: 1.271295, Train: 0.985714, Val: 0.786000, Test: 0.803000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 318, Loss: 1.269976, Train: 0.985714, Val: 0.784000, Test: 0.803000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 319, Loss: 1.213743, Train: 0.985714, Val: 0.782000, Test: 0.803000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 320, Loss: 1.143950, Train: 0.985714, Val: 0.780000, Test: 0.805000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 321, Loss: 1.301351, Train: 0.985714, Val: 0.780000, Test: 0.804000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 322, Loss: 1.261349, Train: 0.985714, Val: 0.776000, Test: 0.803000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 323, Loss: 1.164281, Train: 0.985714, Val: 0.780000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 324, Loss: 1.253161, Train: 0.985714, Val: 0.780000, Test: 0.803000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 325, Loss: 1.213959, Train: 0.985714, Val: 0.778000, Test: 0.801000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 326, Loss: 1.263162, Train: 0.985714, Val: 0.778000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 327, Loss: 1.235896, Train: 0.978571, Val: 0.778000, Test: 0.801000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 328, Loss: 1.157092, Train: 0.978571, Val: 0.780000, Test: 0.800000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 329, Loss: 1.231336, Train: 0.978571, Val: 0.782000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 330, Loss: 1.306534, Train: 0.978571, Val: 0.784000, Test: 0.800000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 331, Loss: 1.240111, Train: 0.978571, Val: 0.784000, Test: 0.796000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 332, Loss: 1.190547, Train: 0.978571, Val: 0.784000, Test: 0.795000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 333, Loss: 1.224422, Train: 0.978571, Val: 0.786000, Test: 0.794000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 334, Loss: 1.265837, Train: 0.978571, Val: 0.786000, Test: 0.794000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 335, Loss: 1.206461, Train: 0.978571, Val: 0.784000, Test: 0.795000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 336, Loss: 1.249397, Train: 0.978571, Val: 0.784000, Test: 0.795000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 337, Loss: 1.251282, Train: 0.978571, Val: 0.784000, Test: 0.792000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 338, Loss: 1.286987, Train: 0.978571, Val: 0.780000, Test: 0.793000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 339, Loss: 1.230982, Train: 0.978571, Val: 0.782000, Test: 0.796000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 340, Loss: 1.232503, Train: 0.978571, Val: 0.784000, Test: 0.794000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 341, Loss: 1.198958, Train: 0.978571, Val: 0.784000, Test: 0.798000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 342, Loss: 1.154948, Train: 0.985714, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 343, Loss: 1.216086, Train: 0.985714, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 344, Loss: 1.234784, Train: 0.985714, Val: 0.784000, Test: 0.801000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 345, Loss: 1.223456, Train: 0.985714, Val: 0.782000, Test: 0.800000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 346, Loss: 1.248201, Train: 0.978571, Val: 0.782000, Test: 0.800000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 347, Loss: 1.123399, Train: 0.978571, Val: 0.782000, Test: 0.800000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 348, Loss: 1.217836, Train: 0.978571, Val: 0.780000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 349, Loss: 1.244685, Train: 0.978571, Val: 0.782000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 350, Loss: 1.170328, Train: 0.978571, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 351, Loss: 1.261532, Train: 0.978571, Val: 0.786000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 352, Loss: 1.189510, Train: 0.978571, Val: 0.786000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 353, Loss: 1.213646, Train: 0.978571, Val: 0.784000, Test: 0.799000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 354, Loss: 1.177579, Train: 0.978571, Val: 0.784000, Test: 0.801000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 355, Loss: 1.181164, Train: 0.978571, Val: 0.786000, Test: 0.799000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 356, Loss: 1.220026, Train: 0.978571, Val: 0.786000, Test: 0.800000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 357, Loss: 1.251633, Train: 0.978571, Val: 0.782000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 358, Loss: 1.239941, Train: 0.978571, Val: 0.782000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 359, Loss: 1.208476, Train: 0.978571, Val: 0.782000, Test: 0.803000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 360, Loss: 1.280955, Train: 0.978571, Val: 0.780000, Test: 0.802000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 361, Loss: 1.216674, Train: 0.978571, Val: 0.782000, Test: 0.804000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 362, Loss: 1.171412, Train: 0.978571, Val: 0.782000, Test: 0.805000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 363, Loss: 1.189337, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.786000, Test_acc_best: 0.807000
+Epoch: 364, Loss: 1.117387, Train: 0.978571, Val: 0.792000, Test: 0.806000, Val_acc_best: 0.792000, Test_acc_best: 0.807000
+Epoch: 365, Loss: 1.177191, Train: 0.978571, Val: 0.794000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 366, Loss: 1.255369, Train: 0.978571, Val: 0.792000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 367, Loss: 1.207304, Train: 0.978571, Val: 0.786000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 368, Loss: 1.210143, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 369, Loss: 1.215780, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 370, Loss: 1.264806, Train: 0.978571, Val: 0.792000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 371, Loss: 1.184689, Train: 0.978571, Val: 0.788000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 372, Loss: 1.187228, Train: 0.978571, Val: 0.786000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 373, Loss: 1.196890, Train: 0.978571, Val: 0.788000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 374, Loss: 1.159276, Train: 0.978571, Val: 0.790000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 375, Loss: 1.207804, Train: 0.978571, Val: 0.790000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 376, Loss: 1.186393, Train: 0.978571, Val: 0.790000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 377, Loss: 1.192271, Train: 0.971429, Val: 0.780000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 378, Loss: 1.179471, Train: 0.971429, Val: 0.780000, Test: 0.807000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 379, Loss: 1.123770, Train: 0.971429, Val: 0.780000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 380, Loss: 1.166765, Train: 0.971429, Val: 0.780000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 381, Loss: 1.149374, Train: 0.971429, Val: 0.780000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 382, Loss: 1.180364, Train: 0.971429, Val: 0.784000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 383, Loss: 1.136593, Train: 0.971429, Val: 0.784000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 384, Loss: 1.163017, Train: 0.971429, Val: 0.784000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 385, Loss: 1.128707, Train: 0.971429, Val: 0.782000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 386, Loss: 1.116478, Train: 0.971429, Val: 0.782000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 387, Loss: 1.232902, Train: 0.971429, Val: 0.782000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 388, Loss: 1.150113, Train: 0.971429, Val: 0.778000, Test: 0.800000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 389, Loss: 1.226425, Train: 0.971429, Val: 0.778000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 390, Loss: 1.148692, Train: 0.978571, Val: 0.778000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 391, Loss: 1.065520, Train: 0.978571, Val: 0.774000, Test: 0.797000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 392, Loss: 1.184642, Train: 0.978571, Val: 0.776000, Test: 0.797000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 393, Loss: 1.158548, Train: 0.978571, Val: 0.778000, Test: 0.797000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 394, Loss: 1.198102, Train: 0.978571, Val: 0.780000, Test: 0.795000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 395, Loss: 1.165900, Train: 0.978571, Val: 0.780000, Test: 0.797000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 396, Loss: 1.126420, Train: 0.978571, Val: 0.786000, Test: 0.794000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 397, Loss: 1.181232, Train: 0.978571, Val: 0.786000, Test: 0.794000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 398, Loss: 1.219051, Train: 0.978571, Val: 0.788000, Test: 0.795000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 399, Loss: 1.134803, Train: 0.978571, Val: 0.784000, Test: 0.794000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 400, Loss: 1.166427, Train: 0.971429, Val: 0.782000, Test: 0.798000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 401, Loss: 1.177423, Train: 0.971429, Val: 0.788000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 402, Loss: 1.182076, Train: 0.971429, Val: 0.790000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.807000
+Epoch: 403, Loss: 1.200802, Train: 0.971429, Val: 0.788000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.808000
+Epoch: 404, Loss: 1.177852, Train: 0.971429, Val: 0.790000, Test: 0.810000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 405, Loss: 1.157603, Train: 0.971429, Val: 0.790000, Test: 0.809000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 406, Loss: 1.241972, Train: 0.971429, Val: 0.786000, Test: 0.810000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 407, Loss: 1.213933, Train: 0.971429, Val: 0.790000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 408, Loss: 1.188640, Train: 0.971429, Val: 0.786000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 409, Loss: 1.209853, Train: 0.971429, Val: 0.786000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 410, Loss: 1.101004, Train: 0.971429, Val: 0.790000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 411, Loss: 1.179875, Train: 0.971429, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 412, Loss: 1.200821, Train: 0.971429, Val: 0.782000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 413, Loss: 1.175804, Train: 0.971429, Val: 0.780000, Test: 0.797000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 414, Loss: 1.181284, Train: 0.978571, Val: 0.776000, Test: 0.795000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 415, Loss: 1.085350, Train: 0.978571, Val: 0.778000, Test: 0.794000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 416, Loss: 1.197903, Train: 0.978571, Val: 0.778000, Test: 0.794000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 417, Loss: 1.181467, Train: 0.978571, Val: 0.776000, Test: 0.793000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 418, Loss: 1.182559, Train: 0.978571, Val: 0.776000, Test: 0.794000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 419, Loss: 1.222497, Train: 0.978571, Val: 0.776000, Test: 0.795000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 420, Loss: 1.295728, Train: 0.978571, Val: 0.778000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 421, Loss: 1.184674, Train: 0.978571, Val: 0.786000, Test: 0.796000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 422, Loss: 1.158386, Train: 0.978571, Val: 0.784000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 423, Loss: 1.153394, Train: 0.978571, Val: 0.784000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 424, Loss: 1.171433, Train: 0.978571, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 425, Loss: 1.117469, Train: 0.978571, Val: 0.784000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 426, Loss: 1.153661, Train: 0.978571, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 427, Loss: 1.139602, Train: 0.978571, Val: 0.780000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 428, Loss: 1.175442, Train: 0.978571, Val: 0.780000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 429, Loss: 1.137089, Train: 0.978571, Val: 0.784000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 430, Loss: 1.149447, Train: 0.978571, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 431, Loss: 1.108903, Train: 0.978571, Val: 0.784000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 432, Loss: 1.152188, Train: 0.978571, Val: 0.784000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 433, Loss: 1.116204, Train: 0.978571, Val: 0.784000, Test: 0.800000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 434, Loss: 1.204400, Train: 0.978571, Val: 0.784000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 435, Loss: 1.186112, Train: 0.978571, Val: 0.784000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 436, Loss: 1.145314, Train: 0.978571, Val: 0.788000, Test: 0.800000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 437, Loss: 1.121909, Train: 0.978571, Val: 0.784000, Test: 0.798000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 438, Loss: 1.203331, Train: 0.978571, Val: 0.786000, Test: 0.797000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 439, Loss: 1.181593, Train: 0.978571, Val: 0.788000, Test: 0.797000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 440, Loss: 1.098659, Train: 0.978571, Val: 0.788000, Test: 0.797000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 441, Loss: 1.156114, Train: 0.978571, Val: 0.788000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 442, Loss: 1.090272, Train: 0.978571, Val: 0.788000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 443, Loss: 1.218298, Train: 0.978571, Val: 0.788000, Test: 0.800000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 444, Loss: 1.101025, Train: 0.978571, Val: 0.788000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 445, Loss: 1.134581, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 446, Loss: 1.162543, Train: 0.978571, Val: 0.786000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 447, Loss: 1.110856, Train: 0.978571, Val: 0.784000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 448, Loss: 1.169100, Train: 0.978571, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 449, Loss: 1.019208, Train: 0.978571, Val: 0.784000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 450, Loss: 1.134788, Train: 0.978571, Val: 0.784000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 451, Loss: 1.101113, Train: 0.978571, Val: 0.784000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 452, Loss: 1.166018, Train: 0.978571, Val: 0.784000, Test: 0.800000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 453, Loss: 1.087934, Train: 0.978571, Val: 0.786000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 454, Loss: 1.097026, Train: 0.978571, Val: 0.784000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 455, Loss: 1.193992, Train: 0.978571, Val: 0.784000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 456, Loss: 1.129356, Train: 0.978571, Val: 0.784000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 457, Loss: 1.141836, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 458, Loss: 1.161417, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 459, Loss: 1.177586, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 460, Loss: 1.158324, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 461, Loss: 1.140992, Train: 0.978571, Val: 0.786000, Test: 0.807000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 462, Loss: 1.170942, Train: 0.978571, Val: 0.788000, Test: 0.807000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 463, Loss: 1.140210, Train: 0.978571, Val: 0.788000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 464, Loss: 1.122411, Train: 0.978571, Val: 0.790000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 465, Loss: 1.111946, Train: 0.978571, Val: 0.790000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 466, Loss: 1.159765, Train: 0.978571, Val: 0.790000, Test: 0.800000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 467, Loss: 1.030082, Train: 0.978571, Val: 0.790000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 468, Loss: 1.157655, Train: 0.978571, Val: 0.790000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 469, Loss: 1.152897, Train: 0.978571, Val: 0.790000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 470, Loss: 1.209174, Train: 0.978571, Val: 0.790000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 471, Loss: 1.086380, Train: 0.978571, Val: 0.790000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 472, Loss: 1.093148, Train: 0.978571, Val: 0.788000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 473, Loss: 1.034611, Train: 0.978571, Val: 0.788000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 474, Loss: 1.151269, Train: 0.971429, Val: 0.786000, Test: 0.807000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 475, Loss: 1.091249, Train: 0.971429, Val: 0.784000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 476, Loss: 1.115137, Train: 0.971429, Val: 0.786000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 477, Loss: 1.155003, Train: 0.971429, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 478, Loss: 1.157727, Train: 0.971429, Val: 0.786000, Test: 0.807000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 479, Loss: 1.132077, Train: 0.971429, Val: 0.786000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 480, Loss: 1.147276, Train: 0.971429, Val: 0.784000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 481, Loss: 1.107802, Train: 0.971429, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 482, Loss: 1.120228, Train: 0.971429, Val: 0.788000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 483, Loss: 1.150234, Train: 0.971429, Val: 0.790000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 484, Loss: 1.093840, Train: 0.978571, Val: 0.790000, Test: 0.798000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 485, Loss: 1.079517, Train: 0.978571, Val: 0.790000, Test: 0.798000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 486, Loss: 1.098371, Train: 0.978571, Val: 0.788000, Test: 0.796000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 487, Loss: 1.132946, Train: 0.978571, Val: 0.788000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 488, Loss: 1.099079, Train: 0.978571, Val: 0.788000, Test: 0.799000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 489, Loss: 1.083157, Train: 0.978571, Val: 0.786000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 490, Loss: 1.112372, Train: 0.978571, Val: 0.786000, Test: 0.800000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 491, Loss: 1.141249, Train: 0.978571, Val: 0.790000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 492, Loss: 1.089589, Train: 0.978571, Val: 0.790000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 493, Loss: 1.066591, Train: 0.978571, Val: 0.788000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 494, Loss: 1.077560, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 495, Loss: 1.035246, Train: 0.978571, Val: 0.788000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 496, Loss: 1.106406, Train: 0.978571, Val: 0.786000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 497, Loss: 1.115072, Train: 0.978571, Val: 0.784000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 498, Loss: 1.138596, Train: 0.978571, Val: 0.786000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 499, Loss: 1.066680, Train: 0.978571, Val: 0.788000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 500, Loss: 1.060895, Train: 0.978571, Val: 0.788000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 501, Loss: 1.155805, Train: 0.978571, Val: 0.788000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 502, Loss: 1.164544, Train: 0.978571, Val: 0.788000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 503, Loss: 1.145522, Train: 0.978571, Val: 0.784000, Test: 0.798000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 504, Loss: 0.996608, Train: 0.978571, Val: 0.780000, Test: 0.798000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 505, Loss: 1.218220, Train: 0.978571, Val: 0.780000, Test: 0.795000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 506, Loss: 1.084833, Train: 0.978571, Val: 0.778000, Test: 0.795000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 507, Loss: 1.023763, Train: 0.978571, Val: 0.780000, Test: 0.796000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 508, Loss: 1.106745, Train: 0.978571, Val: 0.784000, Test: 0.796000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 509, Loss: 1.090656, Train: 0.978571, Val: 0.788000, Test: 0.797000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 510, Loss: 1.126677, Train: 0.978571, Val: 0.788000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 511, Loss: 1.047456, Train: 0.978571, Val: 0.788000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 512, Loss: 1.077945, Train: 0.978571, Val: 0.792000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 513, Loss: 1.127784, Train: 0.978571, Val: 0.790000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 514, Loss: 1.156577, Train: 0.978571, Val: 0.788000, Test: 0.800000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 515, Loss: 1.135566, Train: 0.978571, Val: 0.792000, Test: 0.798000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 516, Loss: 1.097799, Train: 0.978571, Val: 0.790000, Test: 0.798000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 517, Loss: 1.089117, Train: 0.978571, Val: 0.790000, Test: 0.800000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 518, Loss: 1.089487, Train: 0.978571, Val: 0.790000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 519, Loss: 1.152620, Train: 0.978571, Val: 0.790000, Test: 0.801000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 520, Loss: 1.049482, Train: 0.978571, Val: 0.788000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 521, Loss: 1.069464, Train: 0.978571, Val: 0.786000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 522, Loss: 1.087841, Train: 0.978571, Val: 0.786000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 523, Loss: 1.075928, Train: 0.978571, Val: 0.786000, Test: 0.809000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 524, Loss: 1.032634, Train: 0.978571, Val: 0.788000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 525, Loss: 1.116158, Train: 0.978571, Val: 0.790000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 526, Loss: 1.070155, Train: 0.978571, Val: 0.790000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 527, Loss: 1.206844, Train: 0.978571, Val: 0.788000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 528, Loss: 1.106373, Train: 0.978571, Val: 0.776000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 529, Loss: 1.080755, Train: 0.978571, Val: 0.778000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 530, Loss: 1.075989, Train: 0.978571, Val: 0.782000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 531, Loss: 1.051726, Train: 0.978571, Val: 0.782000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 532, Loss: 1.124585, Train: 0.978571, Val: 0.782000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 533, Loss: 1.134944, Train: 0.978571, Val: 0.780000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 534, Loss: 1.033459, Train: 0.978571, Val: 0.782000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 535, Loss: 1.072463, Train: 0.978571, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 536, Loss: 1.108042, Train: 0.978571, Val: 0.784000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 537, Loss: 1.120507, Train: 0.978571, Val: 0.784000, Test: 0.802000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 538, Loss: 1.162471, Train: 0.978571, Val: 0.784000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 539, Loss: 1.037026, Train: 0.978571, Val: 0.782000, Test: 0.807000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 540, Loss: 1.126874, Train: 0.978571, Val: 0.782000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 541, Loss: 1.126744, Train: 0.978571, Val: 0.780000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 542, Loss: 1.113471, Train: 0.978571, Val: 0.780000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 543, Loss: 1.083500, Train: 0.978571, Val: 0.778000, Test: 0.810000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 544, Loss: 1.051081, Train: 0.971429, Val: 0.778000, Test: 0.808000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 545, Loss: 1.115952, Train: 0.971429, Val: 0.780000, Test: 0.804000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 546, Loss: 1.065438, Train: 0.971429, Val: 0.782000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 547, Loss: 1.178945, Train: 0.971429, Val: 0.782000, Test: 0.807000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 548, Loss: 1.091324, Train: 0.971429, Val: 0.782000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 549, Loss: 1.212565, Train: 0.971429, Val: 0.780000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 550, Loss: 1.076873, Train: 0.971429, Val: 0.782000, Test: 0.807000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 551, Loss: 1.097442, Train: 0.978571, Val: 0.784000, Test: 0.810000, Val_acc_best: 0.794000, Test_acc_best: 0.810000
+Epoch: 552, Loss: 1.076168, Train: 0.978571, Val: 0.782000, Test: 0.811000, Val_acc_best: 0.794000, Test_acc_best: 0.811000
+Epoch: 553, Loss: 1.091122, Train: 0.978571, Val: 0.778000, Test: 0.809000, Val_acc_best: 0.794000, Test_acc_best: 0.811000
+Epoch: 554, Loss: 1.103674, Train: 0.978571, Val: 0.778000, Test: 0.810000, Val_acc_best: 0.794000, Test_acc_best: 0.811000
+Epoch: 555, Loss: 1.123603, Train: 0.978571, Val: 0.778000, Test: 0.809000, Val_acc_best: 0.794000, Test_acc_best: 0.811000
+Epoch: 556, Loss: 0.995043, Train: 0.978571, Val: 0.778000, Test: 0.809000, Val_acc_best: 0.794000, Test_acc_best: 0.811000
+Epoch: 557, Loss: 1.062773, Train: 0.978571, Val: 0.780000, Test: 0.809000, Val_acc_best: 0.794000, Test_acc_best: 0.811000
+Epoch: 558, Loss: 1.061586, Train: 0.978571, Val: 0.784000, Test: 0.812000, Val_acc_best: 0.794000, Test_acc_best: 0.812000
+Epoch: 559, Loss: 1.074172, Train: 0.978571, Val: 0.784000, Test: 0.813000, Val_acc_best: 0.794000, Test_acc_best: 0.813000
+Epoch: 560, Loss: 1.063106, Train: 0.978571, Val: 0.782000, Test: 0.814000, Val_acc_best: 0.794000, Test_acc_best: 0.814000
+Epoch: 561, Loss: 1.079679, Train: 0.978571, Val: 0.782000, Test: 0.812000, Val_acc_best: 0.794000, Test_acc_best: 0.814000
+Epoch: 562, Loss: 1.023141, Train: 0.978571, Val: 0.780000, Test: 0.809000, Val_acc_best: 0.794000, Test_acc_best: 0.814000
+Epoch: 563, Loss: 1.014990, Train: 0.971429, Val: 0.780000, Test: 0.806000, Val_acc_best: 0.794000, Test_acc_best: 0.814000
+Epoch: 564, Loss: 1.139116, Train: 0.971429, Val: 0.778000, Test: 0.803000, Val_acc_best: 0.794000, Test_acc_best: 0.814000
+Epoch: 565, Loss: 1.017490, Train: 0.978571, Val: 0.778000, Test: 0.805000, Val_acc_best: 0.794000, Test_acc_best: 0.814000

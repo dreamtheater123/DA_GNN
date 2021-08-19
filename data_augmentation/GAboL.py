@@ -17,12 +17,22 @@ def find_trainmask_index(train_mask):
     :param train_mask: the train_mask in a graph object
     :return: the split index for train_mask
     """
-    largest_index = 0
+    split_indexes = []
     for index, item in enumerate(train_mask):
-        if item == True:
-            if index > largest_index:
-                largest_index = index
-    return largest_index
+        if index == 0:  # train_mask[0] is True
+            split_indexes.append(index)
+        else:
+            if train_mask[index] != train_mask[index-1]:
+                split_indexes.append(index)
+
+    return split_indexes
+
+    # largest_index = 0
+    # for index, item in enumerate(train_mask):
+    #     if item == True:
+    #         if index > largest_index:
+    #             largest_index = index
+    # return largest_index
 
 
 def add_edge(ori_graph_list, edge):
@@ -53,16 +63,23 @@ def data_aug(data, dataG, hop):
 
     add_edge_list = []
     count = 0
-    split_index = find_trainmask_index(data.train_mask)
-    print('split index:', split_index)
+    split_indexs = find_trainmask_index(data.train_mask)
+    print('split indexs:', split_indexs)
     for i in range(2708):
         for key, item in all_path[i].items():  # edges like (1, 3) and (3, 1) are all added in this list
             if len(item) > 2:
                 if dataG.has_edge(item[0], item[-1]) == False:  # 这里是找的最短路径为2的，所以肯定没有起点终点之间肯定没有edge
                     if data.y[item[0]].item() == data.y[item[-1]].item():
-                        if item[0] <= split_index or item[-1] <= split_index:
-                            add_edge_list.append([item[0], item[-1]])
-                            count += 1
+                        if len(split_indexs) == 2:
+                            if split_indexs[0] <= item[0] < split_indexs[1] or split_indexs[0] <= item[-1] < split_indexs[1]:
+                                add_edge_list.append([item[0], item[-1]])
+                                count += 1
+                        elif len(split_indexs) == 4:
+                            if split_indexs[0] <= item[0] < split_indexs[1] or split_indexs[0] <= item[-1] < split_indexs[1] or split_indexs[2] <= item[0] < split_indexs[3] or split_indexs[2] <= item[-1] < split_indexs[3]:
+                                add_edge_list.append([item[0], item[-1]])
+                                count += 1
+                        else:
+                            raise RuntimeError('GAboL training set split index error!')
     # print(add_edge_list)
     print('number of added edges (double check):', count, len(add_edge_list))
     print('number of hops:', hop)

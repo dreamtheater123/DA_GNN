@@ -6,6 +6,8 @@ import networkx as nx
 import torch
 from torch_geometric.data import Data
 import os
+import datetime
+from numpy import mean
 
 
 def load_dataset(dataset_name):
@@ -64,9 +66,9 @@ def from_numpy_edge_to_pyg(data, edge_np):
     return data_new
 
 
-def saving_log(log_list, acc, lr, hidden_layer, dropout, weight_decay, GNN):
+def saving_log_PO(log_list, val_acc, test_acc, lr, hidden_layer, dropout, weight_decay, GNN):
     with open(os.path.join(config.log_path, 'acc_collection.csv'), 'a+', encoding='utf-8') as f:
-        f.write(','.join([str(acc), str(lr), str(hidden_layer), str(dropout), str(weight_decay), str(GNN)]) + '\n')
+        f.write(','.join([str(val_acc), str(test_acc), str(lr), str(hidden_layer), str(dropout), str(weight_decay), str(GNN)]) + '\n')
     # find the total length in acc_collection file
     with open(os.path.join(config.log_path, 'acc_collection.csv'), 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -75,8 +77,35 @@ def saving_log(log_list, acc, lr, hidden_layer, dropout, weight_decay, GNN):
         f.writelines(log_list)
 
 
+def saving_log_normal(log_list, val_acc, test_acc):
+    # print(os.path.join(config.log_path, datetime.datetime.strftime(datetime.datetime.now(), '%Y-%m-%d %H:%M:%S') + '.txt'))
+    with open(os.path.join(config.log_path, datetime.datetime.strftime(datetime.datetime.now(), '%Y-%m-%d %H:%M:%S').replace(':', '_') + '.txt'), 'w', encoding='utf-8') as f:
+        f.writelines(log_list)
+        f.writelines(['Best validation accuracy: ' + str(val_acc) + '\n', 'Best test accuracy: ' + str(test_acc) + '\n'])
+
+
+def saving_log_mean(val_list):
+    with open(os.path.join(config.log_path, 'val_mean.txt'), 'w', encoding='utf-8') as f:
+        for val in val_list:
+            f.write(str(val) + '\n')
+        f.write('mean validation accuracy: ' + str(mean(val_list)) + '\n')
+
+
+def change_split(data):
+    index_list = list(range(data.train_mask.shape[0]))
+    for mask in [data.train_mask, data.val_mask, data.test_mask]:
+        for index, item in enumerate(mask):
+            if item == True:
+                index_list.remove(index)
+    for index in index_list:
+        data.train_mask[index] = True
+
+    return data
+
+
 if __name__ == '__main__':
-    cora = load_dataset(config.dataset)
-    dataG = from_pyg_to_networkx(cora[0])
-    print(dataG)
-    # print('success!')
+    # cora = load_dataset(config.dataset)
+    # dataG = from_pyg_to_networkx(cora[0])
+    # print(dataG)
+    # # print('success!')
+    saving_log_normal(['1\n', '2\n'], 11, 111)
