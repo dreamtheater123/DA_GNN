@@ -6,12 +6,19 @@ This is the code for project "Data Augmentation for Graph Neural Networks"
 to run the project.
 
 You can also use the command
+<<<<<<< HEAD
 `python param_optim.py`
+=======
+```
+python param_optim.py
+```
+>>>>>>> 59b2b43afa4fe720940850043316a4a76a22c0ab
 to do the parameter optimization.
 ## Project Structure
 Directory "data" contains the downloaded datasets.<br>
 Directory "data_augmentation" contains 4 graph data augmentation implementation code.<br>
 Directory "model" contains the implementation code for GCN&GAT.<br>
+<<<<<<< HEAD
 **Config.py** contains all the hyperparameters of the model.<br>
 **utils.py** contains some useful functions.<br>
 **main.py** contains the pipeline of running the whole model.<br>
@@ -34,3 +41,9 @@ for i in range(7, 16):
     main()
 ```
 It runs the experiment with the number of hops from 7 to 15.
+=======
+Config.py contains all the hyperparameters of the model.
+utils.py contains some useful functions.
+main.py contains the pipeline of running the whole model.
+param_optim.py contains the code for parameter optimization. It optimizes the learning rate, hidden layer size, dropout rate, weight decay rate.
+>>>>>>> 59b2b43afa4fe720940850043316a4a76a22c0ab
