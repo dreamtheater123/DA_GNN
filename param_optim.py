@@ -5,7 +5,8 @@ from Config import config
 import os
 
 if __name__ == '__main__':
-    for repeat in range(10000):
+    print('parameter optimization will perform repeated experiments for', config.run_times_PO, 'times.')
+    for repeat in range(config.run_times_PO):
         # pre-configure
         lr = np.random.rand()
         lr = -2 * lr - 2  # range: [-4, -2]
@@ -26,14 +27,28 @@ if __name__ == '__main__':
         # settings
         config.GNN = 'GAT'
         config.log_path = os.path.join('.', 'log', 'param_optim', config.GNN)  # important!!!
-        config.lr_GAT = lr
-        config.hidden_layer_GAT = hidden_layer
-        config.dropout = dropout
-        config.weight_decay = weight_decay
+        if config.GNN == 'GCN':
+            config.lr_GCN = lr
+            config.hidden_layer_GCN = hidden_layer
+            config.dropout = dropout
+            config.weight_decay = weight_decay
 
-        print('GNN:', config.GNN)
-        print('learning rate:', config.lr_GAT)
-        print('hidden layer size:', config.hidden_layer_GAT)
-        print('dropout rate:', config.dropout)
-        print('weight decay rate:', config.weight_decay)
+            print('GNN:', config.GNN)
+            print('learning rate:', config.lr_GCN)
+            print('hidden layer size:', config.hidden_layer_GCN)
+            print('dropout rate:', config.dropout)
+            print('weight decay rate:', config.weight_decay)
+        elif config.GNN == 'GAT':
+            config.lr_GAT = lr
+            config.hidden_layer_GAT = hidden_layer
+            config.dropout = dropout
+            config.weight_decay = weight_decay
+
+            print('GNN:', config.GNN)
+            print('learning rate:', config.lr_GAT)
+            print('hidden layer size:', config.hidden_layer_GAT)
+            print('dropout rate:', config.dropout)
+            print('weight decay rate:', config.weight_decay)
+        else:
+            raise RuntimeError('config.GNN setting error!')
         main()
