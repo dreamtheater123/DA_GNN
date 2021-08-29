@@ -110,11 +110,7 @@ def main():
         # for GAboL exclusively
         if config.Data_Aug == 'GAboL':
             test_data = data_loader[0]
-<<<<<<< HEAD
         data_loader = DataLoader(data_loader, batch_size=1)
-=======
-    data_loader = DataLoader(data_loader, batch_size=1)
->>>>>>> 59b2b43afa4fe720940850043316a4a76a22c0ab
 
     best_val_list = []
     for times in range(config.run_times):  # the number of repeated experiments
