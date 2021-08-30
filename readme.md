@@ -19,7 +19,7 @@ Directory "model" contains the implementation code for GCN&GAT.<br>
 
 ## Experiments to Run
 The only experiment left to run is the GAboL on GAT using the split of 1208/500/1000.
-Before running, you need to make sure the following parameters that are correctly set in **Config.py**.
+Before running, you need to make sure the following parameters are correctly set in **Config.py**.
 ```python
 self.Cora_split = '1208'
 self.GNN = 'GAT'
