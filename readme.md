@@ -26,7 +26,7 @@ self.GNN = 'GAT'
 self.Data_Aug = 'GAboL'
 ```
 Then, just run the **experiment.py**.
-The key code in it is the copied in the following lines.
+The key code in it is copied in the following lines.
 ```python
 for i in range(7, 16):
     # print(i)
