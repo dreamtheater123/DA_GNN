@@ -1,5 +1,12 @@
 # Overview
-This is the code for project "Data Augmentation for Graph Neural Networks"
+This is an pytorch implementation of several data augmentation techniques for graph neural networks, including DropEdge, GAugM and an original data augmentation method called GAboC.</br>
+This project aims to perform performance comparison of several graph data augmentation methods.
+## About GAboC
+Inspired by GAugM, which shows that the performance of graph neural networks can be further improved by adding "important" edges or deleting "unimportant" edges, we explore the possibility of using centrality to measure the importance of the edges. We found that using edge degree centrality to perform data augmentation can slightly improve the performance of graph neural networks.
+## Graph neural networks
+We choose to use GCN and GAT as the backbone GNN models.
+## Datasets
+We support Cora and Citeseer dataset in this project.
 ## Run the project
 "main.py" is the entry file for this project. You can use the command
 `python main.py`
@@ -16,21 +23,3 @@ Directory "model" contains the implementation code for GCN&GAT.<br>
 **utils.py** contains some useful functions.<br>
 **main.py** contains the pipeline of running the whole model.<br>
 **param_optim.py** contains the code for parameter optimization. It optimizes the learning rate, hidden layer size, dropout rate, weight decay rate.
-
-## Experiments to Run
-The only experiment left to run is the GAboL on GAT using the split of 1208/500/1000.
-Before running, you need to make sure the following parameters are correctly set in **Config.py**.
-```python
-self.Cora_split = '1208'
-self.GNN = 'GAT'
-self.Data_Aug = 'GAboL'
-```
-Then, just run the **experiment.py**.
-The key code in it is copied in the following lines.
-```python
-for i in range(7, 16):
-    # print(i)
-    config.hop = i
-    main()
-```
-It runs the experiment with the number of hops from 7 to 15.
